@@ -35,7 +35,7 @@ const Navbar = () => {
 
         {/* LARGE SCREEN */}
         <div className="hidden lg:block">
-          <div className="flex items-center justify-center bg-slate-400">
+          <div className="flex items-center justify-center">
             <Link
               href="/"
               className="flex flex-row items-center px-3 py-2 ml-4 text-lg rounded-md focus:outline-none"

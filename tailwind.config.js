@@ -18,6 +18,9 @@ module.exports = {
           200: "#FF9E99",
           300: "#290200",
         },
+        secondary: {
+          100: "#BFBFBF",
+        },
       },
       fontFamily: {
         sans: ["Helvetica", "Arial", "sans-serif"],
