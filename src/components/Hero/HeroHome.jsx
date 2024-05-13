@@ -11,9 +11,10 @@ const HeroHome = () => {
             <div className="text-3xl leading-relaxed">
               <h1 className="font-sans text-white">
                 <span className="md:text-4xl">DISCOVER BLISSFUL</span> <br></br>
-                <span className="text-primary-100">THAI MASSAGE</span>
+                <span className="text-primary-300">THAI MASSAGE</span>
                 <br></br>
-                EXPERIENCES AT <span className="text-white">RUAN THAI</span>
+                EXPERIENCES AT{" "}
+                <span className="text-primary-300">RUAN THAI</span>
               </h1>
             </div>
 
@@ -21,7 +22,7 @@ const HeroHome = () => {
             <div className="flex flex-wrap justify-center mt-20">
               <a
                 href="#"
-                className="block w-auto px-6 py-4 text-lg text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-100"
+                className="block w-auto px-6 py-4 text-lg text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-200"
               >
                 CONTACT US
               </a>

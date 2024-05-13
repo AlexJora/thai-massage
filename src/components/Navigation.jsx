@@ -4,6 +4,7 @@ import { FiMenu } from "react-icons/fi";
 import { IoClose } from "react-icons/io5";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navigation = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -19,12 +20,17 @@ const Navigation = () => {
 
   return (
     <nav className="bg-secondary-100">
-      <div className="container px-6 mx-auto lg:px-8">
-        <div className="flex items-center justify-between h-16">
+      <div className="container">
+        <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <h1 className="text-lg font-semibold tracking-widest text-black uppercase">
-              <Link href="#">LOGO</Link>
-            </h1>
+            <Link href="/">
+              <Image
+                src="/assets/logo-text.webp"
+                alt="logo"
+                width={200}
+                height={200}
+              />
+            </Link>
           </div>
           {/* HAMBURGER */}
           <div className="block lg:hidden">
@@ -208,7 +214,6 @@ const Navigation = () => {
               </div>
             )}
 
-            
             {/* ===================================================== */}
 
             <Link
