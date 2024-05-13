@@ -4,13 +4,13 @@ import { FaFacebook } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
-    <footer className="py-12 text-white bg-primary-300">
+    <footer className="py-12 text-white bg-primary-400">
       <div className="container flex flex-wrap justify-between mx-auto">
         {/* Column 1: Logo */}
         <div className="w-full pl-4 mb-8 md:w-1/4 md:mb-0">
           <div className="flex flex-col mb-4">
             <Image src="/assets/logo.jpg" alt="Logo" width={120} height={120} />
-            <h2 className="text-lg font-bold mt-7 text-secondary-100">
+            <h2 className="text-lg font-bold mt-7 text-secondary-300">
               Connect with Us
             </h2>
           </div>
@@ -26,7 +26,7 @@ const Footer = () => {
 
         {/* Column 2: Massage Treatments */}
         <div className="w-full pl-4 mb-8 md:w-1/4 md:mb-0">
-          <h2 className="mb-3 text-lg font-bold text-secondary-100">
+          <h2 className="mb-3 text-lg font-bold text-secondary-300">
             Massage Treatments
           </h2>
           <ul>
@@ -50,7 +50,7 @@ const Footer = () => {
 
         {/* Column 3: Beauty Treatments */}
         <div className="w-full pl-4 mb-8 md:w-1/4 md:mb-0">
-          <h2 className="mb-3 text-lg font-bold text-secondary-100">
+          <h2 className="mb-3 text-lg font-bold text-secondary-300">
             Beauty Treatments
           </h2>
           <ul>
@@ -68,11 +68,11 @@ const Footer = () => {
 
         {/* Column 4: Contact Ruan Thai */}
         <div className="w-full pl-4 pr-4 md:w-1/4">
-          <h2 className="mb-3 text-lg font-bold text-secondary-100">
+          <h2 className="mb-3 text-lg font-bold text-secondary-300">
             CONTACT RUAN THAI
           </h2>
           <p>
-            <span className="font-bold text-primary-200">Call:</span>
+            <span className="font-bold text-primary-300">Call:</span>
             <span className="text-xs">
               {" "}
               +27 (0) 21 424 7444 | +27 (0) 71 578 0477
@@ -80,7 +80,7 @@ const Footer = () => {
           </p>
           <p>
             {" "}
-            <span className="font-bold text-primary-200">Address:</span>
+            <span className="font-bold text-primary-300">Address:</span>
             <span className="text-xs"> 36 Long Street Cape Town</span>
           </p>
           <p>
@@ -95,7 +95,7 @@ const Footer = () => {
       </div>
 
       {/* Copyright */}
-      <div className="mt-4 text-xs text-center text-secondary-100">
+      <div className="mt-4 text-xs text-center text-secondary-300">
         <p>© 2024 Ruan Thai - All rights reserved.</p>
       </div>
     </footer>

@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  font-family: var(--font-open-sans);
+}
+
+h1 {
+  font-family: var(--font-roboto-mono);
+}

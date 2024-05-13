@@ -3,7 +3,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Header = () => {
   return (
-    <div className="flex py-3 space-x-8 text-sm text-white bg-primary-300 justify-evenly md:px-10">
+    <div className="flex py-3 space-x-8 text-sm text-white bg-primary-400 justify-evenly md:px-10">
       <div className="flex items-center space-x-2">
         <FaPhone className="text-xl" />
         <p>+27 (0) 21 424 7444 | +27 (0) 71 578 0477</p>
