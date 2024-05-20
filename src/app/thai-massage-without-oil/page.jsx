@@ -1,5 +1,11 @@
-const ThaiMassageWithoutOil = () => {
-  return <div>THAI MASSAGE WHITOUT OIL</div>;
+import HeroThaiNoOil from "@/components/Hero/HeroThaiNoOil";
+
+const ThaiWithoutOil = () => {
+  return (
+    <div>
+      <HeroThaiNoOil />
+    </div>
+  );
 };
 
-export default ThaiMassageWithoutOil;
+export default ThaiWithoutOil;

@@ -9,7 +9,12 @@ const Footer = () => {
         {/* Column 1: Logo */}
         <div className="w-full pl-4 mb-8 md:w-1/4 md:mb-0">
           <div className="flex flex-col mb-4">
-            <Image src="/assets/logo.webp" alt="Logo" width={120} height={120} />
+            <Image
+              src="/assets/logo.webp"
+              alt="Logo"
+              width={120}
+              height={120}
+            />
             <h2 className="text-lg font-bold mt-7 text-secondary-300">
               Connect with Us
             </h2>
@@ -80,8 +85,11 @@ const Footer = () => {
           </p>
           <p>
             {" "}
-            <span className="font-bold text-primary-300">Address:</span>
-            <span className="text-xs"> 36 Long Street Cape Town</span>
+            <span className="font-bold text-primary-300">Address: </span>
+            <span className="text-xs">
+              46 Riebeek Street Cape Town <br></br>(Between Buitengracht Street
+              and Bree Street)
+            </span>
           </p>
           <p>
             {" "}

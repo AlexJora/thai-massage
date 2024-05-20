@@ -8,11 +8,11 @@ const Header = () => {
         <FaPhone className="text-xl text-secondary-300" />
         <p>+27 (0) 21 424 7444 | +27 (0) 71 578 0477</p>
       </div>
-      <div className="items-center hidden space-x-2 md:flex">
+      <div className="items-center hidden space-x-2 lg:flex">
         <FaLocationDot className="text-xl text-secondary-300" />
-        <p>36 Long Street Cape Town</p>
+        <p>46 Riebeek Street Cape Town</p>
       </div>
-      <div className="items-center hidden space-x-2 md:flex">
+      <div className="items-center hidden space-x-2 lg:flex">
         <FaClock className="text-xl text-secondary-300" />
         <p>Hours: Monday to Sunday: 10:00 am to 7:00 pm</p>
       </div>
