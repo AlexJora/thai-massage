@@ -74,7 +74,7 @@ const Navigation = () => {
                 </button>
                 {/* MASSAGE dropdown */}
                 {isMassageOpen && (
-                  <div className="absolute z-20 mt-2 origin-top-right shadow-lg w-72 left-8">
+                  <div className="absolute z-40 mt-2 origin-top-right shadow-lg w-72 left-8">
                     <div className="py-1 bg-white rounded-md shadow-xs">
                       <Link
                         href="/massage-overview"
