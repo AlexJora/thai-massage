@@ -1,5 +1,10 @@
+import HeroOil from "@/components/Hero/HeroOil";
 const OilMassage = () => {
-  return <div>OIL MASSAGE</div>;
+  return (
+    <div>
+      <HeroOil />
+    </div>
+  );
 };
 
 export default OilMassage;

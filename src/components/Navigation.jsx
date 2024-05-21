@@ -101,13 +101,13 @@ const Navigation = () => {
                         FOOT REXLEXOLOGY
                       </Link>
                       <Link
-                        href="/couple massage"
+                        href="/couple-massage"
                         className="flex flex-row items-center px-4 py-2 text-lg focus:outline-none hover:bg-secondary-101 focus:bg-secondary-101"
                       >
                         COUPLE MASSAGE
                       </Link>
                       <Link
-                        href="/oil massage"
+                        href="/oil-massage"
                         className="flex flex-row items-center px-4 py-2 text-lg focus:outline-none hover:bg-secondary-101 focus:bg-secondary-101"
                       >
                         OIL MASSAGE
