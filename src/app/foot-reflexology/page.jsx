@@ -1,5 +1,10 @@
-const FootRexlexology = () => {
-  return <div>FOOT REFLEXOLOGY</div>;
+import HeroFoot from "@/components/Hero/HeroFoot";
+const FootReflexology = () => {
+  return (
+    <div>
+      <HeroFoot />
+    </div>
+  );
 };
 
-export default FootRexlexology;
+export default FootReflexology;
