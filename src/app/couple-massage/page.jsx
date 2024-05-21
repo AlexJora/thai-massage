@@ -1,5 +1,10 @@
+import HeroCouple from "@/components/Hero/HeroCouple";
 const CoupleMassage = () => {
-  return <div>COUPLE MASSAGE</div>;
+  return (
+    <div>
+      <HeroCouple />
+    </div>
+  );
 };
 
 export default CoupleMassage;
