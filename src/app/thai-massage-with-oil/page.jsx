@@ -1,5 +1,10 @@
+import HeroThaiOil from "@/components/Hero/HeroThaiOil";
 const ThaiMassageOil = () => {
-  return <div>THAI MASSAGE WHIT OIL</div>;
+  return (
+    <div>
+      <HeroThaiOil />
+    </div>
+  );
 };
 
 export default ThaiMassageOil;
