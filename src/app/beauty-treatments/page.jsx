@@ -1,5 +1,11 @@
+import HeroBeauty from "@/components/Hero/HeroBeauty";
+
 const Beauty = () => {
-  return <div>BEAUTY</div>;
+  return (
+    <div>
+      <HeroBeauty />
+    </div>
+  );
 };
 
 export default Beauty;
