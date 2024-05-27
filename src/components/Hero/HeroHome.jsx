@@ -8,13 +8,15 @@ const HeroHome = () => {
         {/* Content Container */}
         <div className="z-20 max-w-xl mx-auto text-center lg:w-3/4 lg:mx-0">
           <div className="p-8 bg-black bg-opacity-50 rounded-md">
-            <div className="text-3xl leading-relaxed">
+            <div className="text-3xl leading-loose">
               <h1 className="font-sans text-white">
-                <span className="md:text-4xl">DISCOVER BLISSFUL</span> <br></br>
-                <span className="text-primary-300">THAI MASSAGE</span>
+                <span className="">DISCOVER BLISSFUL</span> <br></br>
+                <span className="text-primary-200 md:text-5xl">
+                  THAI MASSAGE
+                </span>
                 <br></br>
-                EXPERIENCES AT{" "}
-                <span className="text-primary-300">RUAN THAI</span>
+                EXPERIENCES AT <br></br>
+                <span className="text-primary-200 md:text-5xl">RUAN THAI</span>
               </h1>
             </div>
 
