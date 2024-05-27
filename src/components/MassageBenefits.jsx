@@ -42,14 +42,6 @@ const MassageBenefits = () => {
           </li>
         ))}
       </ul>
-      <div className="flex flex-wrap justify-center my-16 ms-10">
-        <button
-          href="/contact"
-          className="block w-auto px-6 py-4 text-lg text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
-        >
-          MASSAGE OVERVIEW
-        </button>
-      </div>
     </div>
   );
 };

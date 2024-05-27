@@ -3,26 +3,26 @@ import Image from "next/image";
 const GridMassageHome = () => {
   const cards = [
     {
-      title: "Traditional Thai Massage - Without Oil",
+      title: "Thai Massage - Without Oil",
       text: "The traditional Thai massage involves techniques including pressing, rolling, squeezing.",
       price1: "R420 (60 minutes)",
       price2: "R600 (90 minutes)",
       price3: "R800 (120 minutes)",
-      imageUrl: "/assets/thai.png",
+      imageUrl: "/assets/thaiNoOilGrid.jpg",
     },
     {
-      title: "Traditional Thai Massage - With Oil",
+      title: "Thai Massage - With Oil",
       text: "Our most popular treatment, combining the healing effects of Thai massage with the relaxation of oil.",
       price1: "R420 (60 minutes)",
       price2: "R600 (90 minutes)",
       price3: "R800 (120 minutes)",
-      imageUrl: "/assets/oil.png",
+      imageUrl: "/assets/thaiOilGrid.jpg",
     },
     {
       title: "Thai foot massage",
       text: "Reflexology involves the stimulation of ‘reflex points’ in the hands or feet using thumb and hand techniques.",
       price: "R400 (60 minutes)",
-      imageUrl: "/assets/foot.jpg",
+      imageUrl: "/assets/footGrid.jpg",
       price1: "R420 (60 minutes)",
       price2: "R600 (90 minutes)",
       price3: "R800 (120 minutes)",
@@ -30,14 +30,14 @@ const GridMassageHome = () => {
   ];
   return (
     <div className="w-5/6 mx-auto mt-10">
-      <h1 className="mt-8 mb-4 text-3xl text-center">MAIN SERVICES</h1>
+      <h1 className="py-10 text-3xl text-center">MAIN SERVICES</h1>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
         {cards.map((card, index) => (
           <div
             key={index}
             className="max-w-sm mx-auto overflow-hidden text-center bg-white"
           >
-            <div className="relative w-full h-60">
+            <div className="relative w-full h-72">
               <Image
                 src={card.imageUrl}
                 alt={card.title}

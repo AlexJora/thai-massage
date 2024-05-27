@@ -1,5 +1,6 @@
 import HeroHome from "@/components/Hero/HeroHome";
 import GridMassageHome from "@/components/Grid/GridMassageHome";
+import MassageBenefits from "@/components/MassageBenefits";
 import Image from "next/image";
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       <HeroHome />
       {/* TEXT */}
       <div className="text-center">
-        <p className="px-4 py-16 text-2xl leading-relaxed text-black lg:px-14">
+        <p className="px-4 text-2xl leading-relaxed text-black pt-14 lg:px-14">
           Sawadeeka and welcome to Ruan Thai. Experience Thai massage at it’s
           best, performed by experienced Thai therapists. Treat yourself to a
           private massage or bond with your loved one in a dual massage room in
@@ -17,6 +18,13 @@ export default function Home() {
           soul.
         </p>
       </div>
+      {/* GRID */}
+      <GridMassageHome />
+      <div className="w-full pt-4 h-96 bg-secondary-200">
+        <h1 className="mt-8 mb-12 text-4xl text-center">Testimonials</h1>
+      </div>
+      {/* BENEFITS */}
+      <MassageBenefits />
     </div>
   );
 }
