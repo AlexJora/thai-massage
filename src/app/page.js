@@ -6,7 +6,7 @@ export default function Home() {
       <HeroHome />
       {/* TEXT */}
       <div className="text-center">
-        <p className="px-20 pt-24 font-serif text-xl text-black">
+        <p className="px-20 pt-24 text-xl text-black">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus
           dui, eleifend eu consequat eget, fringilla nec arcu. Duis aliquet
           aliquet libero in aliquet. Nulla et risus metus. Morbi sed sapien

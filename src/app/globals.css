@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 html {
-  font-family: var(--font-open-sans);
+  font-family: var(--font-libre-franklin);
 }
 
-h1 {
-  font-family: var(--font-roboto-mono);
+h1,
+h2 {
+  font-family: var(--font-montserrat);
 }
