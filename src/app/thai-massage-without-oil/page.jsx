@@ -1,5 +1,6 @@
 import HeroThaiNoOil from "@/components/Hero/HeroThaiNoOil";
 import Image from "next/image";
+import Button2 from "@/components/Button/Button2";
 const ThaiWithoutOil = () => {
   return (
     <div>
@@ -56,6 +57,7 @@ const ThaiWithoutOil = () => {
           an oil massage instead.
         </p>
       </div>
+      <Button2 />
     </div>
   );
 };
