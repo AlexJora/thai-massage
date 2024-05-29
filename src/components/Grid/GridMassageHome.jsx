@@ -8,7 +8,7 @@ const GridMassageHome = () => {
       price1: "R420 (60 minutes)",
       price2: "R600 (90 minutes)",
       price3: "R800 (120 minutes)",
-      imageUrl: "/assets/thaiNoOilGrid.jpg",
+      imageUrl: "/assets/grid/thaiNoOil.jpg",
     },
     {
       title: "Thai Massage - With Oil",
@@ -16,16 +16,16 @@ const GridMassageHome = () => {
       price1: "R420 (60 minutes)",
       price2: "R600 (90 minutes)",
       price3: "R800 (120 minutes)",
-      imageUrl: "/assets/thaiOilGrid.jpg",
+      imageUrl: "/assets/grid/oil.webp",
     },
     {
       title: "Thai foot massage",
       text: "Reflexology involves the stimulation of ‘reflex points’ in the hands or feet using thumb and hand techniques.",
       price: "R400 (60 minutes)",
-      imageUrl: "/assets/footGrid.jpg",
-      price1: "R420 (60 minutes)",
-      price2: "R600 (90 minutes)",
-      price3: "R800 (120 minutes)",
+      imageUrl: "/assets/grid/foot.jpg",
+      price1: "R330 (45 minutes)",
+      price2: "R400 (60 minutes)",
+      price3: "-",
     },
   ];
   return (
@@ -43,7 +43,7 @@ const GridMassageHome = () => {
                 alt={card.title}
                 layout="fill"
                 objectFit="cover"
-                className="rounded-t-lg"
+                className="shadow-lg"
               />
             </div>
             <div className="px-6 py-4">

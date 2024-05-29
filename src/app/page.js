@@ -21,7 +21,7 @@ export default function Home() {
       </div>
       {/* GRID */}
       <GridMassageHome />
-      <div className="w-full pt-4 h-96 bg-secondary-200">
+      <div className="w-full pt-4 mt-10 h-96 bg-secondary-200">
         <h1 className="mt-8 mb-12 text-4xl text-center">Testimonials</h1>
       </div>
       {/* BENEFITS */}
