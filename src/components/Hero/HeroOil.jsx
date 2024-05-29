@@ -6,16 +6,10 @@ const HeroThaiOil = () => {
       <div className="absolute inset-0 z-0">
         <picture>
           {/* Mobile Image */}
-          <source
-            media="(max-width: 768px)"
-            srcSet="/assets/heroOil-sm.webp"
-          />
+          <source media="(max-width: 768px)" srcSet="/assets/heroOil-sm.webp" />
 
           {/* Desktop Image */}
-          <source
-            media="(min-width: 769px)"
-            srcSet="/assets/heroOil-lg.webp"
-          />
+          <source media="(min-width: 769px)" srcSet="/assets/heroOil-lg.webp" />
 
           {/* Fallback Image */}
           <Image
@@ -32,10 +26,7 @@ const HeroThaiOil = () => {
         {/* Content Container */}
         <div className="z-20 max-w-xl">
           <div className="text-4xl leading-relaxed">
-            <h1 className="font-sans font-semibold text-white">
-              {" "}
-              MASSAGE WITH OIL
-            </h1>
+            <h1 className="font-sans text-white"> MASSAGE WITH OIL</h1>
           </div>
         </div>
       </div>

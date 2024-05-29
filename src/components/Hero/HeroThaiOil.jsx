@@ -32,9 +32,10 @@ const HeroThaiOil = () => {
         {/* Content Container */}
         <div className="z-20 max-w-xl">
           <div className="text-4xl leading-relaxed">
-            <h1 className="font-sans font-semibold text-white">
+            <h1 className="font-sans text-white">
               {" "}
-              TRADITIONAL THAI MASSAGE WITH OIL
+              TRADITIONAL THAI MASSAGE <br></br>
+              <span className="text-2xl">WITH OIL</span>
             </h1>
           </div>
         </div>
