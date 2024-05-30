@@ -65,9 +65,6 @@ const Footer = () => {
             <li>
               <a href="#">Spa Packages</a>
             </li>
-            <li>
-              <a href="#">Treatment C</a>
-            </li>
           </ul>
         </div>
 

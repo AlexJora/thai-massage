@@ -8,18 +8,18 @@ const HeroAbout = () => {
           {/* Mobile Image */}
           <source
             media="(max-width: 768px)"
-            srcSet="/assets/heroAbout-sm.webp"
+            srcSet="/assets/hero/heroAbout-sm.webp"
           />
 
           {/* Desktop Image */}
           <source
             media="(min-width: 769px)"
-            srcSet="/assets/heroAbout-lg.webp"
+            srcSet="/assets/hero/heroAbout-lg.webp"
           />
 
           {/* Fallback Image */}
           <Image
-            src="/assets/heroAbout-lg.webp"
+            src="/assets/hero/heroAbout-lg.webp"
             alt="spa decor"
             className="object-cover w-full h-full"
             fill

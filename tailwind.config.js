@@ -18,6 +18,8 @@ module.exports = {
           200: "#FFB1AD",
           300: "#FF9E99",
           400: "#290200",
+          500: "#f2cfcf",
+          600: "#e5cece",
         },
         secondary: {
           100: "#FEFEFE",

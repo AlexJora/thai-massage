@@ -6,7 +6,7 @@ const ThaiMassageOil = () => {
     <div>
       <HeroThaiOil />
       <div className="py-16 lg:py-24">
-        <p className="px-6 text-base leading-7 text-center text-black lg:px-14">
+        <p className="px-6 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">
           Combining the healing wonders of traditional Thai massage with the
           rejuvenation of oil massage, a Thai-oil combo is perfect if you’re
           unaccustomed to the rigour of an oil free Thai massage, or if you’re
@@ -27,11 +27,11 @@ const ThaiMassageOil = () => {
               />
             </div>
           </div>
-          <div className="flex flex-col justify-center lg:w-1/2 bg-gray-200 lg:px-10 ">
-            <h2 className="px-6 pt-12 pb-4 text-3xl text-center lg:text-left">
+          <div className="flex flex-col justify-center bg-gray-200 lg:w-1/2 lg:px-10 ">
+            <h2 className="px-6 pt-12 pb-6 text-3xl text-center lg:text-left">
               Massage Techniques
             </h2>
-            <p className="px-6 pb-12 text-base leading-7 text-center lg:text-left">
+            <p className="px-6 pb-12 text-base leading-7 text-center lg:text-left lg:text-lg">
               During a traditional Thai oil massage treatment at Ruan Thai, you
               will experience a combination of deep tissue massage and gentle
               stretches. Your therapist will use their elbows, hands, fingers,
@@ -43,10 +43,10 @@ const ThaiMassageOil = () => {
         </div>
       </div>
       <div className="mx-auto">
-        <h2 className="px-6 pt-12 pb-4 text-3xl text-center lg:pt-20">
+        <h2 className="px-6 pt-12 pb-6 text-3xl text-center lg:pt-20">
           Benefits Of Thai Oil Massage
         </h2>
-        <p className="px-6 pb-12 text-base leading-7 text-center lg:pb-20">
+        <p className="px-6 pb-12 text-base leading-7 text-center lg:pb-20 lg:text-lg">
           Thai oil massage provides the benefits of traditional Thai massage
           with added relaxation from the use of oils. It helps to soothe the
           muscles, reduce stress, and improve skin hydration. This treatment is

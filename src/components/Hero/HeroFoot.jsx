@@ -7,18 +7,18 @@ const HeroFoot = () => {
           {/* Mobile Image */}
           <source
             media="(max-width: 768px)"
-            srcSet="/assets/heroFoot-sm.webp"
+            srcSet="/assets/hero/heroFoot-sm.webp"
           />
 
           {/* Desktop Image */}
           <source
             media="(min-width: 769px)"
-            srcSet="/assets/heroFoot-lg.webp"
+            srcSet="/assets/hero/heroFoot-lg.webp"
           />
 
           {/* Fallback Image */}
           <Image
-            src="/assets/heroFoot-lg.webp"
+            src="/assets/hero/heroFoot-lg.webp"
             alt="Hero Image"
             className="object-cover w-full h-full"
             layout="fill"

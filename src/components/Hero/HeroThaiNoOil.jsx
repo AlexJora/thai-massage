@@ -7,18 +7,18 @@ const HeroThaiNoOil = () => {
           {/* Mobile Image */}
           <source
             media="(max-width: 768px)"
-            srcSet="/assets/heroThaiNoOil-sm.webp"
+            srcSet="/assets/hero/heroThaiNoOil-sm.webp"
           />
 
           {/* Desktop Image */}
           <source
             media="(min-width: 769px)"
-            srcSet="/assets/heroThaiNoOil-lg.webp"
+            srcSet="/assets/hero/heroThaiNoOil-lg.webp"
           />
 
           {/* Fallback Image */}
           <Image
-            src="/assets/heroThaiNoOil-lg.webp"
+            src="/assets/hero/heroThaiNoOil-lg.webp"
             alt="Hero Image"
             className="object-cover w-full h-full"
             layout="fill"

@@ -29,7 +29,7 @@ const Button1 = () => {
             href="/contact"
             className="block w-auto px-6 py-4 text-lg text-left text-white bg-white bg-opacity-50 border-2 border-white hover:bg-black hover:text-white focus:outline-none focus:ring"
           >
-            CONTACT US
+            SESSION REQUEST
           </button>
         </div>
       </div>

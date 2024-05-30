@@ -7,18 +7,18 @@ const HeroOverview = () => {
           {/* Mobile Image */}
           <source
             media="(max-width: 768px)"
-            srcSet="/assets/overviewHero-sm.webp"
+            srcSet="/assets/hero/overviewHero-sm.webp"
           />
 
           {/* Desktop Image */}
           <source
             media="(min-width: 769px)"
-            srcSet="/assets/overviewHero-lg.webp"
+            srcSet="/assets/hero/overviewHero-lg.webp"
           />
 
           {/* Fallback Image */}
           <Image
-            src="/assets/overviewHero-lg.webp"
+            src="/assets/hero/overviewHero-lg.webp"
             alt="Hero Image"
             className="object-cover w-full h-full"
             layout="fill"
@@ -31,10 +31,7 @@ const HeroOverview = () => {
         {/* Content Container */}
         <div className="z-20 max-w-xl">
           <div className="text-4xl leading-relaxed">
-            <h1 className="font-sans font-semibold text-white">
-              {" "}
-              MASSAGE OVERVIEW
-            </h1>
+            <h1 className="font-sans text-white"> MASSAGE OVERVIEW</h1>
           </div>
         </div>
       </div>

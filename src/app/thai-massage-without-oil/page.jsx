@@ -6,7 +6,7 @@ const ThaiWithoutOil = () => {
     <div>
       <HeroThaiNoOil />
       <div className="py-16 lg:py-24">
-        <p className="px-6 text-base leading-7 text-center text-black lg:px-14">
+        <p className="px-6 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">
           The traditional Thai style of massage is renowned for its healing
           properties and health benefits. This type of massage is performed with
           the patient fully clothed on a low massage bed, which allows the
@@ -35,7 +35,7 @@ const ThaiWithoutOil = () => {
             <h2 className="px-6 pt-12 pb-4 text-3xl text-center lg:text-left">
               Massage Techniques
             </h2>
-            <p className="px-6 pb-12 text-base leading-7 text-center lg:text-left">
+            <p className="px-6 pb-12 text-base leading-7 text-center lg:text-left lg:text-lg">
               During a traditional Thai massage treatment at Ruan Thai, you will
               be manipulated into various stretches. Your therapist will use
               their elbows, hands, fingers, and feet while following a standard
@@ -50,7 +50,7 @@ const ThaiWithoutOil = () => {
         <h2 className="px-6 pt-12 pb-4 text-3xl text-center lg:pt-20">
           Thai or Oil Massage?
         </h2>
-        <p className="px-6 pb-12 text-base leading-7 text-center lg:pb-20">
+        <p className="px-6 pb-12 text-base leading-7 text-center lg:pb-20 lg:text-lg">
           The stretches and techniques applied in Thai massage are generally
           more intense than those in an oil massage treatment. If you’re new to
           Thai massage or prefer a more relaxing experience, consider asking for

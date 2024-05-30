@@ -5,14 +5,20 @@ const HeroBeauty = () => {
       <div className="absolute inset-0 z-0">
         <picture>
           {/* Mobile Image */}
-          <source media="(max-width: 768px)" srcSet="/assets/facial-sm.jpg" />
+          <source
+            media="(max-width: 768px)"
+            srcSet="/assets/hero/facial-sm.jpg"
+          />
 
           {/* Desktop Image */}
-          <source media="(min-width: 769px)" srcSet="/assets/facial-lg.jpg" />
+          <source
+            media="(min-width: 769px)"
+            srcSet="/assets/hero/facial-lg.jpg"
+          />
 
           {/* Fallback Image */}
           <Image
-            src="/assets/facial-lg.jpg"
+            src="/assets/hero/facial-lg.jpg"
             alt="Hero Image"
             className="object-cover w-full h-full"
             layout="fill"

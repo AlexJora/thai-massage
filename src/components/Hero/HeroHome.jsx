@@ -39,18 +39,18 @@ const HeroHome = () => {
           {/* Mobile Image */}
           <source
             media="(max-width: 768px)"
-            srcSet="/assets/heroHome-sm.webp"
+            srcSet="/assets/hero/heroHome-sm.webp"
           />
 
           {/* Desktop Image */}
           <source
             media="(min-width: 769px)"
-            srcSet="/assets/heroHome-lg.webp"
+            srcSet="/assets/hero/heroHome-lg.webp"
           />
 
           {/* Fallback Image */}
           <img
-            src="/assets/heroHome-lg.webp"
+            src="/assets/hero/heroHome-lg.webp"
             alt="Hero Image"
             className="object-cover w-full h-full"
           />

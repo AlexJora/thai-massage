@@ -6,14 +6,14 @@ const HeroThaiOil = () => {
       <div className="absolute inset-0 z-0">
         <picture>
           {/* Mobile Image */}
-          <source media="(max-width: 768px)" srcSet="/assets/heroOil-sm.webp" />
+          <source media="(max-width: 768px)" srcSet="/assets/hero/heroOil-sm.webp" />
 
           {/* Desktop Image */}
-          <source media="(min-width: 769px)" srcSet="/assets/heroOil-lg.webp" />
+          <source media="(min-width: 769px)" srcSet="/assets/hero/heroOil-lg.webp" />
 
           {/* Fallback Image */}
           <Image
-            src="/assets/heroOil-lg.webp"
+            src="/assets/hero/heroOil-lg.webp"
             alt="Hero Image"
             className="object-cover w-full h-full"
             layout="fill"

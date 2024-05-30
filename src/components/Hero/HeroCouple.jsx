@@ -7,18 +7,18 @@ const HeroCouple = () => {
           {/* Mobile Image */}
           <source
             media="(max-width: 768px)"
-            srcSet="/assets/heroCouple-sm.webp"
+            srcSet="/assets/hero/heroCouple-sm.webp"
           />
 
           {/* Desktop Image */}
           <source
             media="(min-width: 769px)"
-            srcSet="/assets/heroCouple-lg.webp"
+            srcSet="/assets/hero/heroCouple-lg.webp"
           />
 
           {/* Fallback Image */}
           <Image
-            src="/assets/heroCouple-lg.webp"
+            src="/assets/hero/heroCouple-lg.webp"
             alt="Hero Image"
             className="object-cover w-full h-full"
             layout="fill"
