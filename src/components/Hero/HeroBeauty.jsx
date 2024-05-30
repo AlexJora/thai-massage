@@ -7,25 +7,25 @@ const HeroBeauty = () => {
           {/* Mobile Image */}
           <source
             media="(max-width: 768px)"
-            srcSet="/assets/hero/facial-sm.jpg"
+            srcSet="/assets/hero/heroBeauty-sm.webp"
           />
 
           {/* Desktop Image */}
           <source
             media="(min-width: 769px)"
-            srcSet="/assets/hero/facial-lg.jpg"
+            srcSet="/assets/hero/heroBeauty-lg.webp"
           />
 
           {/* Fallback Image */}
           <Image
-            src="/assets/hero/facial-lg.jpg"
+            src="/assets/hero/heroBeauty-lg.webp"
             alt="Hero Image"
             className="object-cover w-full h-full"
             layout="fill"
           />
         </picture>
         {/* Black Overlay */}
-        <div className="absolute inset-0 w-full h-full bg-black opacity-50"></div>
+        <div className="absolute inset-0 w-full h-full bg-black opacity-30"></div>
       </div>
       <div className="relative z-20 flex flex-col items-center justify-center h-full max-w-screen-xl px-4 py-16 mx-auto text-center">
         {/* Content Container */}
