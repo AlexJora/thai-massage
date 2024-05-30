@@ -17,7 +17,7 @@ const FootReflexology = () => {
       </div>
       <div className="mx-auto">
         <div className="flex flex-col-reverse items-center lg:flex-row lg:items-stretch">
-          <div className="flex flex-col justify-center bg-primary-200 lg:w-1/2 lg:px-10 ">
+          <div className="flex flex-col justify-center bg-primary-100 lg:w-1/2 lg:px-10 ">
             <h2 className="px-6 pt-12 pb-6 text-3xl leading-9 text-center lg:text-left">
               Benefits of Reflexology
             </h2>
