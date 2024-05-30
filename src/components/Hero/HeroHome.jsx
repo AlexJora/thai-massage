@@ -10,7 +10,8 @@ const HeroHome = () => {
           <div className="p-8 bg-black bg-opacity-50 rounded-md">
             <div className="text-3xl leading-loose">
               <h1 className="font-sans text-white">
-                <span className="">DISCOVER BLISSFUL</span> <br></br>
+                DISCOVER
+                <br></br>
                 <span className="text-primary-200 md:text-5xl">
                   THAI MASSAGE
                 </span>
