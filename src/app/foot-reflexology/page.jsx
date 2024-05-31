@@ -47,7 +47,7 @@ const FootReflexology = () => {
         </div>
       </div>
       <div className="mx-auto">
-        <div className="flex flex-col-reverse items-center lg:flex-row lg:items-stretch">
+        <div className="flex flex-col items-center lg:flex-row lg:items-stretch">
           <div className="w-full lg:w-1/2">
             <div className="w-full h-auto md:h-96 lg:h-auto">
               <Image
