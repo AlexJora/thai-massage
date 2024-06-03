@@ -31,7 +31,7 @@ const HeroAbout = () => {
       <div className="relative z-20 flex flex-col items-center justify-center h-full max-w-screen-xl px-4 py-16 mx-auto text-center">
         {/* Content Container */}
         <div className="z-20 max-w-xl">
-          <div className="text-4xl leading-relaxed">
+          <div className="text-4xl">
             <h1 className="font-sans text-white">ABOUT US</h1>
           </div>
         </div>
