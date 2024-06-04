@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-const HeroPrice = () => {
+const HeroSpa = () => {
   return (
     <section className="relative bg-center bg-no-repeat bg-cover h-96">
       <div className="absolute inset-0 z-0">
@@ -8,18 +8,18 @@ const HeroPrice = () => {
           {/* Mobile Image */}
           <source
             media="(max-width: 768px)"
-            srcSet="/assets/hero/heroPrice-sm.webp"
+            srcSet="/assets/hero/heroSpa-sm.webp"
           />
 
           {/* Desktop Image */}
           <source
             media="(min-width: 769px)"
-            srcSet="/assets/hero/heroPrice-lg.webp"
+            srcSet="/assets/hero/heroSpa-lg.webp"
           />
 
           {/* Fallback Image */}
           <Image
-            src="/assets/hero/heroPrice-lg.webp"
+            src="/assets/hero/heroSpa-lg.webp"
             alt="spa decor"
             className="object-cover w-full h-full"
             fill
@@ -32,7 +32,7 @@ const HeroPrice = () => {
         {/* Content Container */}
         <div className="z-20 max-w-xl">
           <div className="text-4xl">
-            <h1 className="font-sans text-white">PRICE LIST</h1>
+            <h1 className="font-sans text-white">SPA PACKAGES</h1>
           </div>
         </div>
       </div>
@@ -40,4 +40,4 @@ const HeroPrice = () => {
   );
 };
 
-export default HeroPrice;
+export default HeroSpa;

@@ -1,5 +1,10 @@
+import HeroSpa from "@/components/Hero/HeroSpa";
 const SpaPackages = () => {
-  return <div>SPA</div>;
+  return (
+    <div>
+      <HeroSpa />
+    </div>
+  );
 };
 
 export default SpaPackages;
