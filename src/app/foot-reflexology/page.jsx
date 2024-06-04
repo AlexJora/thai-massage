@@ -22,13 +22,13 @@ const FootReflexology = () => {
               Benefits of Reflexology
             </h2>
             <p className="px-6 pb-12 text-base leading-7 text-center lg:text-left lg:text-lg">
-              <span className="font-semibold">Relaxation</span> :from the moment
+              <span className="font-semibold">Relaxation</span>: from the moment
               our therapists start their magic you’ll be able to unwind and
               forget about your stresses.<br></br>
-              <span className="font-semibold">Circulation</span> :research has
+              <span className="font-semibold">Circulation</span>: research has
               shown that reflexology treatments improve circulation to the
               brain, kidneys and liver.<br></br>
-              <span className="font-semibold">Mental health</span> :reflexology
+              <span className="font-semibold">Mental health</span>: reflexology
               can be powerful in reducing depression and anxiety.
             </p>
           </div>

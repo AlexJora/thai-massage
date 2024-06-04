@@ -112,14 +112,14 @@ const Navigation = () => {
                         className="flex flex-row items-center px-4 py-2 hover:bg-secondary-101 focus:bg-secondary-101"
                         onClick={() => setMassageOpen(false)}
                       >
-                        THAI MASSAGE WITHOUT OIL
+                        TRADITIONAL THAI MASSAGE
                       </Link>
                       <Link
                         href="/thai-massage-with-oil"
                         className="flex flex-row items-center px-4 py-2 focus:outline-none hover:bg-secondary-101 focus:bg-secondary-101"
                         onClick={() => setMassageOpen(false)}
                       >
-                        THAI MASSAGE WITH OIL
+                        THAI OIL MIX MASSAGE
                       </Link>
                       <Link
                         href="/foot-reflexology"
@@ -140,7 +140,7 @@ const Navigation = () => {
                         className="flex flex-row items-center px-4 py-2 focus:outline-none hover:bg-secondary-101 focus:bg-secondary-101"
                         onClick={() => setMassageOpen(false)}
                       >
-                        OIL MASSAGE
+                        THAI HOT OIL MASSAGE
                       </Link>
                     </div>
                   </div>
@@ -217,14 +217,14 @@ const Navigation = () => {
                     className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400 hover:border-b-2 border-primary-100 focus:border-b-2"
                     onClick={() => setMassageOpen(false)}
                   >
-                    Thai Massage Without Oil
+                    Traditional Thai Massage
                   </Link>
                   <Link
                     href="/thai-massage-with-oil"
                     className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400 hover:border-b-2 border-primary-100 focus:border-b-2"
                     onClick={() => setMassageOpen(false)}
                   >
-                    Thai Massage With Oil
+                    Thai Oil Mix Massage
                   </Link>
                   <Link
                     href="/foot-reflexology"
@@ -245,7 +245,7 @@ const Navigation = () => {
                     className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400 hover:border-b-2 border-primary-100 focus:border-b-2"
                     onClick={() => setMassageOpen(false)}
                   >
-                    Oil Massage
+                    Thai Hot Oil Massage
                   </Link>
                 </div>
               )}

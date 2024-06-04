@@ -34,8 +34,8 @@ const HeroThaiOil = () => {
           <div className="text-4xl leading-relaxed">
             <h1 className="font-sans text-white">
               {" "}
-              TRADITIONAL THAI MASSAGE <br></br>
-              <span className="text-2xl">WITH OIL</span>
+              THAI OIL MIX MASSAGE <br></br>
+              {/* <span className="text-2xl">WITH OIL</span> */}
             </h1>
           </div>
         </div>

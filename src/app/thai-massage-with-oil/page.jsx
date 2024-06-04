@@ -27,7 +27,7 @@ const ThaiMassageOil = () => {
               />
             </div>
           </div>
-          <div className="flex flex-col justify-center bg-gray-200 lg:w-1/2 lg:px-10 ">
+          <div className="flex flex-col justify-center bg-secondary-101 lg:w-1/2 lg:px-10 ">
             <h2 className="px-6 pt-12 pb-6 text-3xl text-center lg:text-left">
               Massage Techniques
             </h2>
