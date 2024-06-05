@@ -29,7 +29,7 @@ const CoupleMassage = () => {
               muscles, releases tension, and promotes a sense of calm.<br></br>
               <span className="font-semibold">Health Improvements</span>{" "}
               :regular massages improve circulation, reduce muscle soreness, and
-              enhance flexibility. .<br></br>
+              enhance flexibility.<br></br>
               <span className="font-semibold">
                 Mental Clarity and Emotional Balance
               </span>{" "}

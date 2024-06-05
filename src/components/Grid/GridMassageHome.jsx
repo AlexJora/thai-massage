@@ -20,7 +20,7 @@ const GridMassageHome = () => {
     },
     {
       title: "Foot Reflexology",
-      text: "Reflexology involves the stimulation of &aposreflex points&apos in the hands or feet using thumb and hand techniques.",
+      text: "Reflexology involves the stimulation of 'reflex points' in the hands or feet using thumb and hand techniques.",
       price: "R400 (60 minutes)",
       imageUrl: "/assets/grid/foot.jpg",
       price1: "R350 (45 minutes)",
