@@ -8,10 +8,10 @@ const SpaPackages = () => {
         <p className="px-6 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">
           Embark on a journey to ultimate relaxation at{" "}
           <span className="font-semibold">Ruan Thai</span> , where our exclusive
-          spa packages await. Tailored to suit every preference, whether it's a
-          romantic escape, a bonding experience with friends, or a solo retreat,
-          our thoughtfully crafted packages offer the perfect escape. Explore
-          our range of treatments, including the{" "}
+          spa packages await. Tailored to suit every preference, whether
+          it&aposs a romantic escape, a bonding experience with friends, or a
+          solo retreat, our thoughtfully crafted packages offer the perfect
+          escape. Explore our range of treatments, including the{" "}
           <span className="font-semibold">
             Happy Feet, In a Rush, and Anti-Stress Packages
           </span>

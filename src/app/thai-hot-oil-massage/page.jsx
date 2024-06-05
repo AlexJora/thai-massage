@@ -53,7 +53,7 @@ const ThaiHotOilMassage = () => {
         <h2 className="px-6 pt-12 pb-6 text-3xl text-center">Preparation</h2>
         <p className="px-6 pb-12 text-base leading-7 text-center lg:text-lg">
           Before the massage, the therapist may discuss any specific areas of
-          concern or preferences regarding pressure and technique. It’s
+          concern or preferences regarding pressure and technique. It&aposs
           important to communicate any allergies or skin sensitivities,
           especially regarding the oils used.
         </p>

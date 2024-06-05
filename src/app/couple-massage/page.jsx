@@ -34,8 +34,7 @@ const CoupleMassage = () => {
                 Mental Clarity and Emotional Balance
               </span>{" "}
               :the release of endorphins during a massage enhances mood and
-              emotional well-being, reducing symptoms of depression and
-              anxiety..
+              emotional well-being, reducing symptoms of depression and anxiety.
             </p>
           </div>
           <div className="w-full lg:w-1/2">

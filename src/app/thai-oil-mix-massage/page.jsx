@@ -11,8 +11,8 @@ const ThaiOilMixMassage = () => {
           Massage techniques with the soothing application of oil, promoting
           relaxation and reducing stress.{" "}
           <span className="font-semibold">Thai Oil Mix Massage</span> is perfect
-          if you’re unaccustomed to the rigour of an oil free Thai massage, or
-          if you’re interested in pure relaxation.
+          if you&aposre unaccustomed to the rigour of an oil free Thai massage,
+          or if you&aposre interested in pure relaxation.
         </p>
       </div>
       <div className="mx-auto">

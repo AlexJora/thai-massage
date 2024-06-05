@@ -20,7 +20,7 @@ const GridMassageOverview = () => {
     },
     {
       title: "Thai Hot Oil Massage",
-      text: "If you’re not ready for traditional Thai or Thai oil mix massage, an oil massage can be more relaxing.",
+      text: "If you&aposre not ready for traditional Thai or Thai oil mix massage, an oil massage can be more relaxing.",
       price: "R400 (60 minutes)",
       imageUrl: "/assets/grid/oo.jpg",
       price1: "R420 (60 minutes)",
@@ -30,7 +30,7 @@ const GridMassageOverview = () => {
 
     {
       title: "Foot Reflexology",
-      text: "Reflexology involves the stimulation of ‘reflex points’ in the hands or feet using thumb and hand techniques.",
+      text: "Reflexology involves the stimulation of &aposreflex points&apos in the hands or feet using thumb and hand techniques.",
 
       imageUrl: "/assets/grid/foot.jpg",
       price1: "R350 (45 minutes)",

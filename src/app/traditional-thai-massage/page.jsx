@@ -12,7 +12,7 @@ const TraditionalThaiMassage = () => {
           massage is performed with the patient fully clothed on a low massage
           bed, which allows the therapist to perform deep stretches and
           yoga-like exercises. Thai massage follows the Sen lines of the body,
-          which are believed to be the vessels that carry the ‘iom’ or ‘air’
+          which are believed to be the vessels that carry the &aposiom&apos or &aposair&apos
           throughout the body. The therapist applies pressure to points along
           these lines to establish equilibrium throughout the body.
         </p>
@@ -53,7 +53,7 @@ const TraditionalThaiMassage = () => {
         </h2>
         <p className="px-6 pb-12 text-base leading-7 text-center lg:pb-20 lg:text-lg">
           The stretches and techniques applied in Thai massage are generally
-          more intense than those in an oil massage treatment. If you’re new to
+          more intense than those in an oil massage treatment. If you&aposre new to
           Thai massage or prefer a more relaxing experience, consider asking for
           an oil massage instead.
         </p>

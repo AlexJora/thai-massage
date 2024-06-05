@@ -9,11 +9,11 @@ const FootReflexology = () => {
         <h1 className="px-6 pb-6 text-3xl text-center">What is reflexology?</h1>
         <p className="px-6 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">
           <span className="font-semibold">Reflexology</span> is an age-old
-          practise that involves stimulating ‘reflex points’ in the hands or
-          feet using thumb and hand techniques. Each reflex point is linked to a
-          part of the human body, such as the eye or back, so therefore,
-          stimulation of these reflex pressure points can help reduce pain or
-          ailment throughout the body.
+          practise that involves stimulating &aposreflex points&apos in the
+          hands or feet using thumb and hand techniques. Each reflex point is
+          linked to a part of the human body, such as the eye or back, so
+          therefore, stimulation of these reflex pressure points can help reduce
+          pain or ailment throughout the body.
         </p>
       </div>
       <div className="mx-auto">
@@ -24,7 +24,7 @@ const FootReflexology = () => {
             </h2>
             <p className="px-6 pb-12 text-base leading-7 text-center lg:text-left lg:text-lg">
               <span className="font-semibold">Relaxation</span>: from the moment
-              our therapists start their magic you’ll be able to unwind and
+              our therapists start their magic you&aposll be able to unwind and
               forget about your stresses.<br></br>
               <span className="font-semibold">Circulation</span>: research has
               shown that reflexology treatments improve circulation to the
