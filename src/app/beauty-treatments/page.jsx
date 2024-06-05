@@ -9,10 +9,10 @@ const Beauty = () => {
       <div className="py-16 lg:py-24">
         <h1 className="px-6 pb-6 text-3xl text-center">Beauty Services</h1>
         <p className="px-6 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">
-          Our beauty treatments are crafted to revitalize your skin. Skilled
-          professionals customize every session to cater to your individual
-          requirements. Explore our offerings, including the Deep Cleansing
-          Facial and Body Scrub.
+          Our <span className="font-semibold">Beauty Treatments</span> are
+          crafted to revitalize your skin. Skilled professionals customize every
+          session to cater to your individual requirements. Explore our
+          offerings, including the Deep Cleansing Facial and Body Scrub.
         </p>
       </div>
       <GridBeauty />

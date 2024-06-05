@@ -23,7 +23,7 @@ const GridBeauty = () => {
           className="grid items-center gap-10 p-4 lg:gap-20 lg:grid-cols-2 lg:pb-14"
         >
           <div className="flex justify-center lg:justify-start">
-            <div className="w-full h-64 lg:h-96">
+            <div className="w-full h-72 lg:h-96">
               <Image
                 className="object-cover w-full h-full shadow-lg"
                 src={card.imageUrl}
