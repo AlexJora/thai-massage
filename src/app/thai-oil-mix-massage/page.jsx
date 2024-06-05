@@ -1,7 +1,7 @@
 import HeroThaiOil from "@/components/Hero/HeroThaiOil";
 import Button1 from "@/components/Button/Button1";
 import Image from "next/image";
-const ThaiMassageOil = () => {
+const ThaiOilMixMassage = () => {
   return (
     <div>
       <HeroThaiOil />
@@ -60,4 +60,4 @@ const ThaiMassageOil = () => {
   );
 };
 
-export default ThaiMassageOil;
+export default ThaiOilMixMassage;

@@ -1,7 +1,7 @@
 import Button2 from "@/components/Button/Button2";
 import HeroOil from "@/components/Hero/HeroOil";
 import Image from "next/image";
-const OilMassage = () => {
+const ThaiHotOilMassage = () => {
   return (
     <div className="bg-secondary-101">
       <HeroOil />
@@ -71,4 +71,4 @@ const OilMassage = () => {
   );
 };
 
-export default OilMassage;
+export default ThaiHotOilMassage;
