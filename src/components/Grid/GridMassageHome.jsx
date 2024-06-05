@@ -3,7 +3,7 @@ import Image from "next/image";
 const GridMassageHome = () => {
   const cards = [
     {
-      title: "Thai Massage - Without Oil",
+      title: "Traditional Thai Massage",
       text: "The traditional Thai massage involves techniques including pressing, rolling, squeezing.",
       price1: "R420 (60 minutes)",
       price2: "R600 (90 minutes)",
@@ -11,7 +11,7 @@ const GridMassageHome = () => {
       imageUrl: "/assets/grid/thaiNoOil.jpg",
     },
     {
-      title: "Thai Massage - With Oil",
+      title: "Thai Oil Mix Massage",
       text: "Our most popular treatment, combining the healing effects of Thai massage with the relaxation of oil.",
       price1: "R420 (60 minutes)",
       price2: "R600 (90 minutes)",
@@ -19,12 +19,12 @@ const GridMassageHome = () => {
       imageUrl: "/assets/grid/oil.webp",
     },
     {
-      title: "Thai foot massage",
+      title: "Foot Reflexology",
       text: "Reflexology involves the stimulation of ‘reflex points’ in the hands or feet using thumb and hand techniques.",
       price: "R400 (60 minutes)",
       imageUrl: "/assets/grid/foot.jpg",
-      price1: "R330 (45 minutes)",
-      price2: "R400 (60 minutes)",
+      price1: "R350 (45 minutes)",
+      price2: "R420 (60 minutes)",
       price3: "-",
     },
   ];

@@ -8,11 +8,12 @@ const FootReflexology = () => {
       <div className="py-16 lg:py-24">
         <h1 className="px-6 pb-6 text-3xl text-center">What is reflexology?</h1>
         <p className="px-6 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">
-          Reflexology is an age-old practise that involves stimulating ‘reflex
-          points’ in the hands or feet using thumb and hand techniques. Each
-          reflex point is linked to a part of the human body, such as the eye or
-          back, so therefore, stimulation of these reflex pressure points can
-          help reduce pain or ailment throughout the body.
+          <span className="font-semibold">Reflexology</span> is an age-old
+          practise that involves stimulating ‘reflex points’ in the hands or
+          feet using thumb and hand techniques. Each reflex point is linked to a
+          part of the human body, such as the eye or back, so therefore,
+          stimulation of these reflex pressure points can help reduce pain or
+          ailment throughout the body.
         </p>
       </div>
       <div className="mx-auto">

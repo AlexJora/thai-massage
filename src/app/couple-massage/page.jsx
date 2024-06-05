@@ -8,11 +8,11 @@ const CoupleMassage = () => {
       <div className="py-16 lg:py-24">
         <p className="px-6 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">
           Spoil your loved one with a unique bonding experience by indulging in
-          our couple massage treatment. This service allows you to enjoy total
-          relaxation while being in the presence of your partner, creating a
-          serene and intimate atmosphere. During the massage, skilled therapists
-          use synchronized techniques to ensure both of you experience the
-          utmost comfort and tranquility.
+          our <span className="font-semibold">Couple Massage</span> treatment.
+          This service allows you to enjoy total relaxation while being in the
+          presence of your partner, creating a serene and intimate atmosphere.
+          During the massage, skilled therapists use synchronized techniques to
+          ensure both of you experience the utmost comfort and tranquility.
         </p>
       </div>
       <div className="mx-auto">

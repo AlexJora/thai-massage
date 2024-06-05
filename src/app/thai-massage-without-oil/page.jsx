@@ -7,14 +7,14 @@ const ThaiWithoutOil = () => {
       <HeroThaiNoOil />
       <div className="py-16 lg:py-24">
         <p className="px-6 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">
-          The traditional Thai style of massage is renowned for its healing
-          properties and health benefits. This type of massage is performed with
-          the patient fully clothed on a low massage bed, which allows the
-          therapist to perform deep stretches and yoga-like exercises. Thai
-          massage follows the Sen lines of the body, which are believed to be
-          the vessels that carry the ‘iom’ or ‘air’ throughout the body. The
-          therapist applies pressure to points along these lines to establish
-          equilibrium throughout the body.
+          <span className="font-semibold">Traditional Thai Massage</span> is
+          renowned for its healing properties and health benefits. This type of
+          massage is performed with the patient fully clothed on a low massage
+          bed, which allows the therapist to perform deep stretches and
+          yoga-like exercises. Thai massage follows the Sen lines of the body,
+          which are believed to be the vessels that carry the ‘iom’ or ‘air’
+          throughout the body. The therapist applies pressure to points along
+          these lines to establish equilibrium throughout the body.
         </p>
       </div>
       <div className="mx-auto">

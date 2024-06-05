@@ -6,9 +6,7 @@ const MassageOverview = () => {
     <div className="pb-10">
       <HeroOverview />
       <div className="py-16 lg:py-24">
-        <h1 className="px-6 pb-6 text-3xl text-center">
-          Massage Services Tailored to Your Needs
-        </h1>
+        <h1 className="px-6 pb-6 text-3xl text-center">Massage Services</h1>
         <p className="px-6 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">
           Our masseuses are experienced in multiple styles and techniques, and
           can adapt your chosen style to your preference or needs. Before your

@@ -3,7 +3,7 @@ import Image from "next/image";
 const GridMassageOverview = () => {
   const cards = [
     {
-      title: "Traditional Thai Massage - Without Oil",
+      title: "Traditional Thai Massage",
       text: "Traditional Thai massage is a treatment which is famous for its healing properties and health benefits.",
       price1: "R420 (60 minutes)",
       price2: "R600 (90 minutes)",
@@ -11,7 +11,7 @@ const GridMassageOverview = () => {
       imageUrl: "/assets/grid/thaiNoOil.jpg",
     },
     {
-      title: "Traditional Thai Massage - With Oil",
+      title: "Thai Oil Mix Massage",
       text: "Our most popular treatment, combining the healing effects of Thai massage with the relaxation of oil.",
       price1: "R420 (60 minutes)",
       price2: "R600 (90 minutes)",
@@ -20,25 +20,25 @@ const GridMassageOverview = () => {
     },
 
     {
-      title: "Thai foot massage",
+      title: "Foot Reflexology",
       text: "Reflexology involves the stimulation of ‘reflex points’ in the hands or feet using thumb and hand techniques.",
 
       imageUrl: "/assets/grid/foot.jpg",
-      price1: "R330 (45 minutes)",
-      price2: "R400 (60 minutes)",
+      price1: "R350 (45 minutes)",
+      price2: "R420 (60 minutes)",
       price3: "-",
     },
     {
-      title: "Couple massage",
+      title: "Couple Massage",
       text: "Traditional Thai massage is a treatment which is famous for its healing properties and health benefits.",
-      price: "R400 (60 minutes)",
+
       imageUrl: "/assets/grid/couple.jpg",
       price1: "-",
       price2: "-",
       price3: "-",
     },
     {
-      title: "Oil massage",
+      title: "Thai Hot Oil Massage",
       text: "If you’re not ready for traditional Thai or Thai oil mix massage, an oil massage can be more relaxing.",
       price: "R400 (60 minutes)",
       imageUrl: "/assets/grid/oo.jpg",
@@ -47,7 +47,7 @@ const GridMassageOverview = () => {
       price3: "R800 (120 minutes)",
     },
     {
-      title: "Hot stone massage",
+      title: "Hot Stone Massage",
       text: "Hot stone massage can relieve pain and tension in your muscles due to the combination of massage therapy and heat.",
       price: "R400 (60 minutes)",
       imageUrl: "/assets/grid/stone.jpg",
