@@ -8,10 +8,10 @@ const ThaiHotOilMassage = () => {
       <div className="py-16 lg:py-24">
         <p className="px-6 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">
           <span className="font-semibold">Thai Hot Oil Massage</span> is a
-          therapeutic treatment that combines traditional Thai massage
-          techniques with the application of warm oils. This type of massage
-          aims to relax the body, alleviate muscle tension, and promote overall
-          well-being.
+          therapeutic treatment that combines Traditional Thai Massage
+          techniques with the application of warm oils. This massage penetrates
+          deeply into the muscles, aiming to relax the body, alleviate muscle
+          tension, and promote overall well-being.
         </p>
       </div>
       <div className="mx-auto">

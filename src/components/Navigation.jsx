@@ -108,18 +108,25 @@ const Navigation = () => {
                         MASSAGE OVERVIEW
                       </Link>
                       <Link
-                        href="/thai-massage-without-oil"
+                        href="/traditional-thai-massage"
                         className="flex flex-row items-center px-4 py-2 hover:bg-secondary-101 focus:bg-secondary-101"
                         onClick={() => setMassageOpen(false)}
                       >
-                        TRADITIONAL THAI MASSAGE
+                        TRADITIONAL THAI MASSAGE <br></br>(No Oil)
                       </Link>
                       <Link
-                        href="/thai-massage-with-oil"
+                        href="/thai-oil-mix-massage"
                         className="flex flex-row items-center px-4 py-2 focus:outline-none hover:bg-secondary-101 focus:bg-secondary-101"
                         onClick={() => setMassageOpen(false)}
                       >
-                        THAI OIL MIX MASSAGE
+                        THAI OIL MIX MASSAGE <br></br>(With Oil)
+                      </Link>
+                      <Link
+                        href="/thai-hot-oil-massage"
+                        className="flex flex-row items-center px-4 py-2 focus:outline-none hover:bg-secondary-101 focus:bg-secondary-101"
+                        onClick={() => setMassageOpen(false)}
+                      >
+                        THAI HOT OIL MASSAGE <br></br>(With Oil)
                       </Link>
                       <Link
                         href="/foot-reflexology"
@@ -134,13 +141,6 @@ const Navigation = () => {
                         onClick={() => setMassageOpen(false)}
                       >
                         COUPLE MASSAGE
-                      </Link>
-                      <Link
-                        href="/oil-massage"
-                        className="flex flex-row items-center px-4 py-2 focus:outline-none hover:bg-secondary-101 focus:bg-secondary-101"
-                        onClick={() => setMassageOpen(false)}
-                      >
-                        THAI HOT OIL MASSAGE
                       </Link>
                     </div>
                   </div>
@@ -213,18 +213,25 @@ const Navigation = () => {
                     Massage Overview
                   </Link>
                   <Link
-                    href="/thai-massage-without-oil"
+                    href="/traditional-thai-massage"
                     className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400 hover:border-b-2 border-primary-100 focus:border-b-2"
                     onClick={() => setMassageOpen(false)}
                   >
-                    Traditional Thai Massage
+                    Traditional Thai Massage <br></br>(No Oil)
                   </Link>
                   <Link
-                    href="/thai-massage-with-oil"
+                    href="/thai-oil-mix-massage"
                     className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400 hover:border-b-2 border-primary-100 focus:border-b-2"
                     onClick={() => setMassageOpen(false)}
                   >
-                    Thai Oil Mix Massage
+                    Thai Oil Mix Massage <br></br>(With Oil)
+                  </Link>
+                  <Link
+                    href="/thai-hot-oil-massage"
+                    className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400 hover:border-b-2 border-primary-100 focus:border-b-2"
+                    onClick={() => setMassageOpen(false)}
+                  >
+                    Thai Hot Oil Massage <br></br>(With Oil)
                   </Link>
                   <Link
                     href="/foot-reflexology"
@@ -239,13 +246,6 @@ const Navigation = () => {
                     onClick={() => setMassageOpen(false)}
                   >
                     Couple Massage
-                  </Link>
-                  <Link
-                    href="/oil massage"
-                    className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400 hover:border-b-2 border-primary-100 focus:border-b-2"
-                    onClick={() => setMassageOpen(false)}
-                  >
-                    Thai Hot Oil Massage
                   </Link>
                 </div>
               )}

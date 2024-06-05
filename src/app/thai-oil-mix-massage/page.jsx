@@ -7,8 +7,9 @@ const ThaiOilMixMassage = () => {
       <HeroThaiOil />
       <div className="py-16 lg:py-24">
         <p className="px-6 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">
-          Combining the healing wonders of traditional Thai massage with the
-          rejuvenation of oil massage,{" "}
+          A relaxing and therapeutic massage that combines Traditional Thai
+          Massage techniques with the soothing application of oil, promoting
+          relaxation and reducing stress.{" "}
           <span className="font-semibold">Thai Oil Mix Massage</span> is perfect
           if you’re unaccustomed to the rigour of an oil free Thai massage, or
           if you’re interested in pure relaxation.

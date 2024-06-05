@@ -36,9 +36,10 @@ const TraditionalThaiMassage = () => {
               Massage Techniques
             </h2>
             <p className="px-6 pb-12 text-base leading-7 text-center lg:text-left lg:text-lg">
-              During a traditional Thai massage treatment at Ruan Thai, you will
-              be manipulated into various stretches. Your therapist will use
-              their elbows, hands, fingers, and feet while following a standard
+              During a Traditional Thai Massage treatment at{" "}
+              <span className="font-semibold">Ruan Thai</span>, you will be
+              manipulated into various stretches. Your therapist will use their
+              elbows, hands, fingers, and feet while following a standard
               procedure and rhythm. Body weight is applied to increase pressure;
               for greater pressure, the therapist may stand on pressure points
               on your back or legs.
@@ -48,7 +49,7 @@ const TraditionalThaiMassage = () => {
       </div>
       <div className="mx-auto">
         <h2 className="px-6 pt-12 pb-4 text-3xl text-center lg:pt-20">
-          Thai or Oil Massage?
+          Traditional Thai or Thai Oil Massage?
         </h2>
         <p className="px-6 pb-12 text-base leading-7 text-center lg:pb-20 lg:text-lg">
           The stretches and techniques applied in Thai massage are generally
