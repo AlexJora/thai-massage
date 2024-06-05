@@ -18,6 +18,15 @@ const GridMassageOverview = () => {
       price3: "R800 (120 minutes)",
       imageUrl: "/assets/grid/oil.webp",
     },
+    {
+      title: "Thai Hot Oil Massage",
+      text: "If you’re not ready for traditional Thai or Thai oil mix massage, an oil massage can be more relaxing.",
+      price: "R400 (60 minutes)",
+      imageUrl: "/assets/grid/oo.jpg",
+      price1: "R420 (60 minutes)",
+      price2: "R600 (90 minutes)",
+      price3: "R800 (120 minutes)",
+    },
 
     {
       title: "Foot Reflexology",
@@ -37,15 +46,7 @@ const GridMassageOverview = () => {
       price2: "-",
       price3: "-",
     },
-    {
-      title: "Thai Hot Oil Massage",
-      text: "If you’re not ready for traditional Thai or Thai oil mix massage, an oil massage can be more relaxing.",
-      price: "R400 (60 minutes)",
-      imageUrl: "/assets/grid/oo.jpg",
-      price1: "R420 (60 minutes)",
-      price2: "R600 (90 minutes)",
-      price3: "R800 (120 minutes)",
-    },
+
     {
       title: "Hot Stone Massage",
       text: "Hot stone massage can relieve pain and tension in your muscles due to the combination of massage therapy and heat.",

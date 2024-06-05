@@ -11,10 +11,13 @@ const MassageOverview = () => {
           Our masseuses are experienced in multiple styles and techniques, and
           can adapt your chosen style to your preference or needs. Before your
           session begins, our skilled professionals guide you in selecting a
-          style tailored to your needs. We offer: Head Back Neck And Shoulder
-          Massage, Traditional Thai Massage, Thai Oil Mix Massage, Foot
-          Reflexology, Deep Tissue Massage, Thai Herbal Heat Compression
-          Massage, Thai Hot Oil Massage, Hot Stone Massage.
+          style tailored to your needs. We offer:{" "}
+          <span className="font-semibold">
+            Head, Back, Neck, Shoulder Massage, Traditional Thai Massage, Thai
+            Oil Mix Massage, Thai Hot Oil Massage, Foot Reflexology, Deep Tissue
+            Massage, Thai Herbal Heat Compression Massage, Hot Stone Massage
+          </span>
+          .
         </p>
       </div>
       <GridMassageOverview />
