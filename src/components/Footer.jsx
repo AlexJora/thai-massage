@@ -31,9 +31,7 @@ const Footer = () => {
 
         {/* Column 2: Massage Treatments */}
         <div className="w-full pl-4 mb-8 md:w-1/4 md:mb-0">
-          <h2 className="mb-3 text-lg font-bold text-secondary-300">
-            Massage Treatments
-          </h2>
+          <h2 className="mb-3 text-lg font-bold text-secondary-300">Massage</h2>
           <ul>
             <li>
               <a href="#">Thai massage without oil</a>
