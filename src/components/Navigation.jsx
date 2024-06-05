@@ -190,14 +190,14 @@ const Navigation = () => {
           <div className="px-3 pt-2 pb-3 space-y-1 bg-secondary-600">
             <Link
               href="/"
-              className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
+              className="block w-full px-3 py-2 text-xl font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
               onClick={closeMobileMenu}
             >
               HOME
             </Link>
             <Link
               href="/about"
-              className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
+              className="block w-full px-3 py-2 text-xl font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
               onClick={closeMobileMenu}
             >
               ABOUT
@@ -206,7 +206,7 @@ const Navigation = () => {
             <div ref={dropdownRef}>
               <button
                 onClick={toggleMassageMenu}
-                className="flex items-center px-3 py-2 font-medium text-secondary-200 focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
+                className="flex items-center px-3 py-2 text-xl font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
               >
                 <span className="pr-1">MASSAGE</span>
                 {isMassageOpen ? <FaChevronUp /> : <FaChevronDown />}
@@ -265,28 +265,28 @@ const Navigation = () => {
 
               <Link
                 href="/beauty-treatments"
-                className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
+                className="block w-full px-3 py-2 text-xl font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
                 onClick={closeMobileMenu}
               >
                 BEAUTY
               </Link>
               <Link
                 href="/spa-packages"
-                className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
+                className="block w-full px-3 py-2 text-xl font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
                 onClick={closeMobileMenu}
               >
                 SPA PACKAGES
               </Link>
               <Link
                 href="/price-list"
-                className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
+                className="block w-full px-3 py-2 text-xl font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
                 onClick={closeMobileMenu}
               >
                 PRICE LIST
               </Link>
               <Link
                 href="/contact"
-                className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
+                className="block w-full px-3 py-2 text-xl font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
                 onClick={closeMobileMenu}
               >
                 CONTACT
