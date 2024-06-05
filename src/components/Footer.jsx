@@ -56,14 +56,14 @@ const Footer = () => {
         {/* Column 3: Beauty Treatments */}
         <div className="w-full pl-4 mb-8 md:w-1/4 md:mb-0">
           <h2 className="mb-3 text-lg font-bold text-secondary-300">
-            Beauty Treatments
+            Treatments
           </h2>
           <ul>
             <li>
-              <a href="#">Treatments</a>
+              <a href="/beauty-treatments">Beauty Treatments</a>
             </li>
             <li>
-              <a href="#">Spa Packages</a>
+              <a href="/spa-packages">Spa Packages</a>
             </li>
           </ul>
         </div>
