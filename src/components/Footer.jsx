@@ -34,19 +34,19 @@ const Footer = () => {
           <h2 className="mb-3 text-lg font-bold text-secondary-300">Massage</h2>
           <ul>
             <li>
-              <a href="#">Thai massage without oil</a>
+              <a href="/traditional-thai-massage">Traditional Thai Massage</a>
             </li>
             <li>
-              <a href="#">Thai massage with oil</a>
+              <a href="/thai-oil-mix-massage">Thai Oil Mix Massage</a>
             </li>
             <li>
-              <a href="#">Couple Massage</a>
+              <a href="/thai-hot-oil-massage">Thai Hot Oil Massage</a>
             </li>
             <li>
-              <a href="#">Thai Reflexology Massage</a>
+              <a href="/foot-reflexology">Foot Reflexology</a>
             </li>
             <li>
-              <a href="#">Oil massage</a>
+              <a href="/couple-massage">Couple massage</a>
             </li>
           </ul>
         </div>

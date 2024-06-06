@@ -5,18 +5,18 @@ const GridBeauty = () => {
     {
       title: "Deep Cleansing Facial",
       text: "A deep cleansing facial is a versatile beauty treatment suitable for men and women of all ages. This comprehensive facial includes exfoliation, face masks, cleansing, a facial massage, steaming, and the application of various creams and lotions. Tailored to suit different skin types—whether dry, oily, sensitive, or normal—this treatment will leave your skin feeling refreshed and revitalized.",
-      price: "R450 (60 minutes)",
+      price: "R450 ( 60 minutes )",
       imageUrl: "/assets/grid/facials.jpg",
     },
     {
       title: "Body Scrub",
-      text: "Experience the ultimate in skin rejuvenation with our full body scrub. This invigorating treatment exfoliates the skin using abrasive materials like salt, sugar, or herbs, removing dead skin cells and revealing fresh, new skin underneath. It enhances circulation, detoxifies, and refreshes the skin. Post-exfoliation, hydrating creams and oils are applied to lock in moisture, ensuring your skin remains soft and supple. Incorporate this treatment into your skincare routine for smoother, brighter, and more youthful-looking skin.",
-      price: "R450 (60 minutes)",
+      text: "Experience ultimate skin rejuvenation with our full body scrub. This treatment exfoliates using salt, sugar, or herbs to remove dead skin cells, revealing fresh skin underneath. It boosts circulation, detoxifies, and refreshes the skin. After exfoliation, hydrating creams and oils lock in moisture, keeping your skin soft and supple. Add this to your routine for smoother, brighter, and more youthful-looking skin.",
+      price: "R450 ( 60 minutes )",
       imageUrl: "/assets/grid/scrub.jpg",
     },
   ];
   return (
-    <div className="w-5/6 mx-auto lg:11/12">
+    <div className="w-5/6 pb-20 mx-auto lg:11/12">
       {cards.map((card, index) => (
         <div
           key={index}
@@ -47,7 +47,7 @@ const GridBeauty = () => {
               <div className="absolute bottom-[-8px] w-20 h-0.5 bg-primary-300"></div>
             </div>
             <p className="mb-4 leading-relaxed">{card.text}</p>
-            <div className="pt-4 text-xs text-gray-500">
+            <div className="pt-4 text-base text-gray-500">
               <div className="w-3/6 pb-1 mb-1 md:w-2/6">{card.price}</div>
             </div>
             <button

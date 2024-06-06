@@ -184,11 +184,11 @@ const PriceList = () => {
                       <span className="font-semibold">
                         Anti Stress Package (***)
                       </span>
-                      : Thai Oil Mix, Head Foot Massage, Shower, Facial
+                      : Thai Oil Mix, Head, Foot Massage, Shower, Facial
                     </td>
                     <td className="px-2 py-2 border"></td>
                     <td className="px-2 py-2 border"></td>
-                    <td className="px-2 py-2 border">R950</td>
+                    <td className="px-2 py-2 border">R995</td>
                   </tr>
                 </tbody>
               </table>

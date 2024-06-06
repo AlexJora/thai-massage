@@ -186,7 +186,7 @@ const Navigation = () => {
 
       {/* MOBILE SCREEN============================= */}
       {isMobileMenuOpen && (
-        <div className="text-xl lg:hidden">
+        <div className="lg:hidden">
           <div className="px-3 pt-2 pb-3 space-y-1 bg-secondary-600">
             <Link
               href="/"
