@@ -75,7 +75,7 @@ const Navigation = () => {
           </div>
 
           {/* LARGE SCREEN =======================================*/}
-          <div className="hidden text-lg lg:block">
+          <div className="hidden lg:block">
             <div className="flex items-center">
               {/* HOME Link */}
               <Link
@@ -102,7 +102,7 @@ const Navigation = () => {
                 </button>
                 {/* MASSAGE dropdown */}
                 {isMassageOpen && (
-                  <div className="absolute z-40 mt-2 origin-top-right shadow-lg text-secondary-700 w-80 left-8">
+                  <div className="absolute z-40 mt-2 origin-top-right shadow-lg w-72 left-10">
                     <div className="py-1 bg-white rounded-md shadow-xs">
                       <Link
                         href="/massage-overview"
@@ -117,24 +117,21 @@ const Navigation = () => {
                         className="flex flex-col items-start px-4 py-2 hover:bg-secondary-101 focus:bg-secondary-101"
                         onClick={() => setMassageOpen(false)}
                       >
-                        <span>TRADITIONAL THAI MASSAGE</span>
-                        <span className="text-secondary-400">(No Oil)</span>
+                        TRADITIONAL THAI MASSAGE
                       </Link>
                       <Link
                         href="/thai-oil-mix-massage"
                         className="flex flex-col items-start px-4 py-2 hover:bg-secondary-101 focus:bg-secondary-101"
                         onClick={() => setMassageOpen(false)}
                       >
-                        <span>THAI OIL MIX MASSAGE</span>
-                        <span className="text-secondary-400">(With Oil)</span>
+                        THAI OIL MIX MASSAGE
                       </Link>
                       <Link
                         href="/thai-hot-oil-massage"
                         className="flex flex-col items-start px-4 py-2 focus:outline-none hover:bg-secondary-101 focus:bg-secondary-101"
                         onClick={() => setMassageOpen(false)}
                       >
-                        <span>THAI HOT OIL MASSAGE</span>
-                        <span className="text-secondary-400">(With Oil)</span>
+                        THAI HOT OIL MASSAGE
                       </Link>
                       <Link
                         href="/foot-reflexology"
@@ -190,14 +187,14 @@ const Navigation = () => {
           <div className="px-3 pt-2 pb-3 space-y-1 bg-secondary-600">
             <Link
               href="/"
-              className="block w-full px-3 py-2 text-xl font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
+              className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
               onClick={closeMobileMenu}
             >
               HOME
             </Link>
             <Link
               href="/about"
-              className="block w-full px-3 py-2 text-xl font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
+              className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
               onClick={closeMobileMenu}
             >
               ABOUT
@@ -206,7 +203,7 @@ const Navigation = () => {
             <div ref={dropdownRef}>
               <button
                 onClick={toggleMassageMenu}
-                className="flex items-center px-3 py-2 text-xl font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
+                className="flex items-center px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
               >
                 <span className="pr-1">MASSAGE</span>
                 {isMassageOpen ? <FaChevronUp /> : <FaChevronDown />}
@@ -227,24 +224,21 @@ const Navigation = () => {
                     className="block w-full px-3 py-2 text-base font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400 hover:border-b-2 border-primary-100 focus:border-b-2"
                     onClick={closeMobileMenu}
                   >
-                    TRADITIONAL THAI MASSAGE <br></br>
-                    <span className="text-secondary-200">(No Oil)</span>
+                    TRADITIONAL THAI MASSAGE
                   </Link>
                   <Link
                     href="/thai-oil-mix-massage"
                     className="block w-full px-3 py-2 text-base font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400 hover:border-b-2 border-primary-100 focus:border-b-2"
                     onClick={closeMobileMenu}
                   >
-                    THAI OIL MIX MASSAGE <br></br>
-                    <span className="text-secondary-200">(With Oil)</span>
+                    THAI OIL MIX MASSAGE
                   </Link>
                   <Link
                     href="/thai-hot-oil-massage"
                     className="block w-full px-3 py-2 text-base font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400 hover:border-b-2 border-primary-100 focus:border-b-2"
                     onClick={closeMobileMenu}
                   >
-                    THAI HOT OIL MASSAGE <br></br>
-                    <span className="text-secondary-200">(With Oil)</span>
+                    THAI HOT OIL MASSAGE
                   </Link>
                   <Link
                     href="/foot-reflexology"
@@ -265,28 +259,28 @@ const Navigation = () => {
 
               <Link
                 href="/beauty-treatments"
-                className="block w-full px-3 py-2 text-xl font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
+                className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
                 onClick={closeMobileMenu}
               >
                 BEAUTY
               </Link>
               <Link
                 href="/spa-packages"
-                className="block w-full px-3 py-2 text-xl font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
+                className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
                 onClick={closeMobileMenu}
               >
                 SPA PACKAGES
               </Link>
               <Link
                 href="/price-list"
-                className="block w-full px-3 py-2 text-xl font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
+                className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
                 onClick={closeMobileMenu}
               >
                 PRICE LIST
               </Link>
               <Link
                 href="/contact"
-                className="block w-full px-3 py-2 text-xl font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
+                className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
                 onClick={closeMobileMenu}
               >
                 CONTACT

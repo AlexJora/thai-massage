@@ -1,10 +1,10 @@
-import HeroContact from "@/components/Hero/HeroContact";
+import Form from "@/components/Form";
+
 const Contact = () => {
   return (
     <div>
-      <HeroContact />
+      <Form />
     </div>
   );
 };
-
 export default Contact;
