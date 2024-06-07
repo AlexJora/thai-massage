@@ -3,7 +3,7 @@ import React from "react";
 export default function Form() {
   return (
     <>
-      <div className="p-6 border border-gray-200 rounded-lg bg-primary-80">
+      <div className="p-6 rounded-lg bg-primary-80">
         <form>
           <div className="mb-4">
             <label
