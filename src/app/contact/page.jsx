@@ -3,11 +3,11 @@ import Form from "@/components/Form";
 const Contact = () => {
   return (
     <div className="min-h-screen">
-      <div className="flex items-center justify-center w-full bg-secondary-500 h-44">
-        <h1 className="text-4xl font-semibold text-primary-100">CONTACT</h1>
+      <div className="flex items-center justify-center w-full bg-primary-200 h-44">
+        <h1 className="text-4xl font-semibold text-white">CONTACT</h1>
       </div>
 
-      <div className="container px-4 py-10 mx-auto lg:py-16">
+      <div className="w-full py-10 mx-auto lg:py-16 bg-secondary-101">
         <div className="flex flex-wrap justify-center">
           {/* Let's Get In Touch Section */}
           <div className="w-full px-4 mb-8 lg:w-1/2 lg:mb-0">
@@ -25,15 +25,23 @@ const Contact = () => {
                 You Can Find Us At
               </h2>
               <p className="mb-10">
-                <strong>Phone:</strong> +27 (0) 21 424 7444 | +27 (0) 71 578
-                0477
+                <span className="text-lg font-bold text-primary-350">
+                  Phone:
+                </span>{" "}
+                +27 (0) 21 424 7444 | +27 (0) 71 578 0477
               </p>
               <p className="mb-10">
-                <strong>Address:</strong> 46 Riebeek Street Cape Town<br></br>{" "}
-                (Between Buitengracht Street and Bree Street)
+                <span className="text-lg font-bold text-primary-350">
+                  Address:
+                </span>{" "}
+                46 Riebeek Street Cape Town
+                <br></br> (Between Buitengracht Street and Bree Street)
               </p>
               <p className="mb-10">
-                <strong>Hours:</strong> Monday to Sunday: 10:00 am to 7:00 pm
+                <span className="text-lg font-bold text-primary-350">
+                  Hours:
+                </span>{" "}
+                Monday to Sunday: 10:00 am to 7:00 pm
               </p>
               <div className="h-64 mb-10 lg:mt-48">
                 <iframe

@@ -72,7 +72,7 @@ const Footer = () => {
             CONTACT RUAN THAI
           </h2>
           <p>
-            <span className="font-bold text-primary-300">Call:</span>
+            <span className="font-bold text-primary-300">Phone:</span>
             <span className="text-xs">
               {" "}
               +27 (0) 21 424 7444 | +27 (0) 71 578 0477

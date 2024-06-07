@@ -1,12 +1,12 @@
 import Button2 from "@/components/Button/Button2";
-import HeroPrice from "@/components/Hero/HeroPrice";
+
 const PriceList = () => {
   return (
     <>
-      <HeroPrice />
-      {/* <div className="flex items-center justify-center w-full bg-primary-300 h-52">
-        <h1 className="text-4xl font-semibold">PRICE LIST</h1>
-      </div> */}
+      <div className="flex items-center justify-center w-full bg-primary-200 h-44">
+        <h1 className="text-4xl font-semibold text-white">PRICE LIST</h1>
+      </div>
+
       <div className="min-h-screen p-4 sm:p-20 bg-secondary-101">
         {/* Tables Section */}
         <div className="grid grid-cols-1 gap-12 mt-10 text-xs md:text-base">
