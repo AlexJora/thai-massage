@@ -20,7 +20,7 @@ const MassageBenefits = () => {
 
   return (
     <div className="mb-16">
-      <h1 className="mt-8 mb-12 text-4xl text-center">Massage Benefits</h1>
+      <h1 className="mt-12 mb-12 text-4xl text-center">Massage Benefits</h1>
 
       <p className="px-8 mb-8 text-lg">
         Massage serves as a connection between our physical and mental states.
