@@ -1,3 +1,6 @@
+
+import { PiFlowerLotusDuotone } from "react-icons/pi";
+
 const MassageBenefits = () => {
   const items = [
     {
@@ -13,13 +16,13 @@ const MassageBenefits = () => {
       text: "Massage enhances blood and lymphatic circulation. This increased circulation helps deliver oxygen and nutrients to muscle cells more efficiently, which can aid in muscle recovery, reduce swelling, and improve overall cardiovascular health.",
     },
     {
-      title: "ENHANCED FLEXIBILITY AND RANGE OF MOTION",
+      title: "ENHANCED FLEXIBILITY",
       text: "Regular massage therapy can help keep muscles relaxed and joints more fluid, which can enhance flexibility and range of motion. This is particularly beneficial for athletes or individuals who engage in physical activities, as it can improve performance and prevent injuries.",
     },
   ];
 
   return (
-    <div className="mb-16">
+    <div className="mb-16 lg:px-12">
       <h1 className="mt-12 mb-12 text-4xl text-center">Massage Benefits</h1>
 
       <p className="px-8 mb-8 text-lg">
@@ -31,14 +34,15 @@ const MassageBenefits = () => {
       </p>
       <ul className="px-8 space-y-8 list-none">
         {items.map((item, index) => (
-          <li key={index} className="flex items-start">
-            <div className="flex-shrink-0 w-3 h-3 mt-1 mr-4 rounded-full bg-primary-300"></div>
-            <div>
-              <h2 className="mb-2 text-lg font-bold text-primary-300">
+          <li key={index} className="flex flex-col items-start">
+            <div className="flex items-center mb-2">
+              
+              <PiFlowerLotusDuotone className="w-8 h-8 mr-2 text-primary-300" />
+              <h2 className="text-lg font-bold text-primary-300">
                 {item.title}
               </h2>
-              <p>{item.text}</p>
             </div>
+            <p>{item.text}</p>
           </li>
         ))}
       </ul>
