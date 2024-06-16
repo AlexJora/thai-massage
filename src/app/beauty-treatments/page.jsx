@@ -12,7 +12,7 @@ const Beauty = () => {
           Our <span className="font-semibold">Beauty Treatments</span> are
           crafted to revitalize your skin. Skilled professionals customize every
           session to cater to your individual requirements. Explore our
-          offerings, including the Deep Cleansing Facial and Body Scrub.
+          offerings, including the <span className="font-semibold">Deep Cleansing Facial</span> and <span className="font-semibold">Body Scrub.</span> 
         </p>
       </div>
       <GridBeauty />

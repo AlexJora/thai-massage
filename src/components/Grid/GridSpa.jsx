@@ -27,7 +27,7 @@ const GridSpa = () => {
         className="absolute inset-0 z-0 hidden bg-center bg-cover lg:block"
         style={{ backgroundImage: "url('/assets/bg-spa.jpg')" }}
       >
-        <div className="absolute inset-0 bg-white opacity-80"></div>
+        <div className="absolute inset-0 bg-white opacity-90"></div>
       </div>
       <div className="relative z-10">
         <div className="py-16 lg:py-24">

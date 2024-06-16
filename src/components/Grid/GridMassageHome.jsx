@@ -30,7 +30,16 @@ const GridMassageHome = () => {
   ];
   return (
     <div className="w-5/6 mx-auto mt-10">
-      <h1 className="py-10 text-3xl text-center">MAIN SERVICES</h1>
+      <h1 className="mt-12 mb-12 text-4xl text-center">Main Services</h1>
+      <p className="px-6 pb-12 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">
+        At Ruan Thai, we offer a wide range of{" "}
+        <span className="font-semibold">massages</span> including Traditional
+        Thai, Thai Oil Mix, Foot Reflexology, and more, tailored to relax and
+        rejuvenate your body. We also provide{" "}
+        <span className="font-semibold">beauty</span> services like facials and
+        body scrubs. For a more indulgent experience, try our{" "}
+        <span className="font-semibold">spa packages.</span>
+      </p>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
         {cards.map((card, index) => (
           <div
@@ -46,7 +55,7 @@ const GridMassageHome = () => {
                 className="shadow-lg"
               />
             </div>
-            <div className="px-6 py-4">
+            <div className="px-6 py-6">
               <div className="relative mb-6 text-xl font-semibold">
                 {card.title}
                 <div className="absolute bottom-[-8px] left-1/2 transform -translate-x-1/2 w-20 h-0.5 bg-primary-300"></div>
