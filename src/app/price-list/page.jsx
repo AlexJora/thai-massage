@@ -3,7 +3,7 @@ import Button2 from "@/components/Button/Button2";
 const PriceList = () => {
   return (
     <>
-      <div className="flex items-center justify-center w-full bg-primary-200 h-44">
+      <div className="flex items-center justify-center w-full bg-secondary-200 h-44">
         <h1 className="text-4xl font-semibold text-white">PRICE LIST</h1>
       </div>
 
