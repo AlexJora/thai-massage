@@ -35,11 +35,6 @@ module.exports = {
           700: "#525252",
         },
       },
-      fontFamily: {
-        sans: ["Helvetica", "Arial", "sans-serif"],
-        serif: ["Georgia", "serif"],
-        mono: ["Courier", "monospace"],
-      },
     },
   },
   plugins: [],

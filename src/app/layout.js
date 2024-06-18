@@ -5,12 +5,14 @@ import Footer from "@/components/Footer";
 import { Libre_Franklin, Montserrat } from "next/font/google";
 
 const libre_franklin = Libre_Franklin({
+  weight: '400',
   subsets: ["latin"],
   display: "swap",
   variable: "--font-libre-franklin",
 });
 
 const montserrat = Montserrat({
+  weight: '500',
   subsets: ["latin"],
   display: "swap",
   variable: "--font-montserrat",

@@ -29,7 +29,7 @@ const GridMassageHome = () => {
     },
   ];
   return (
-    <div className="w-5/6 mx-auto mt-10">
+    <div className=" mx-auto mt-10">
       <h1 className="mt-12 mb-12 text-4xl text-center">Main Services</h1>
       <p className="px-6 pb-12 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">
         At Ruan Thai, we offer a wide range of{" "}
@@ -50,7 +50,7 @@ const GridMassageHome = () => {
               <Image
                 src={card.imageUrl}
                 alt={card.title}
-                layout="fill"
+                fill
                 objectFit="cover"
                 className="shadow-lg"
               />
@@ -61,23 +61,23 @@ const GridMassageHome = () => {
                 <div className="absolute bottom-[-8px] left-1/2 transform -translate-x-1/2 w-20 h-0.5 bg-primary-300"></div>
               </div>
 
-              <p className="mb-4 text-base text-gray-700">{card.text}</p>
-              <ul className="pt-4 text-xs text-gray-500">
-                <li className="pb-1 mb-1 border-b border-gray-300">
+              <p className="mb-4 text-base">{card.text}</p>
+              <ul className="pt-4 text-sm text-secondary-700">
+                <li className="pb-1 mb-1 border-b border-gray-300 w-3/6 mx-auto">
                   {card.price1}
                 </li>
-                <li className="pb-1 mb-1 border-b border-gray-300">
+                <li className="pb-1 mb-1 border-b border-gray-300 w-3/6 mx-auto">
                   {card.price2}
                 </li>
-                <li className="pb-1 mb-1 border-b border-gray-300">
+                <li className="pb-1 mb-1 border-b border-gray-300 w-3/6 mx-auto">
                   {card.price3}
                 </li>
               </ul>
             </div>
             <div className="flex justify-center pt-4 pb-2">
               <button
-                href="#"
-                className="block px-4 py-2 text-base text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
+                href="/massage-overview"
+                className="mb-12 block px-10 py-2 text-base text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
               >
                 Read more
               </button>

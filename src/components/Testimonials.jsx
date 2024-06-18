@@ -39,7 +39,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="w-full md:max-w-[90%] mx-auto h-[450px] bg-secondary-101 mt-16">
+    <div className="max-w-[90%] mx-auto h-[450px] bg-secondary-101 mt-16">
         <h1 className="py-12 mt-8 text-4xl text-center">Testimonials</h1>
       <Slider {...settings}>
         {data.map((testimonial) => (

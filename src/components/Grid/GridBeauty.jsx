@@ -16,25 +16,25 @@ const GridBeauty = () => {
     },
   ];
   return (
-    <div className="w-5/6 pb-20 mx-auto lg:11/12">
+    <div className="pb-10 w-full md:w-5/6 mx-auto lg:w-11/12">
       {cards.map((card, index) => (
         <div
           key={index}
-          className="grid items-center gap-10 p-4 lg:gap-20 lg:grid-cols-2 lg:pb-14"
+          className="grid items-center lg:gap-20 lg:grid-cols-2 lg:pb-14"
         >
           <div className="flex justify-center lg:justify-start">
-            <div className="w-full h-72 lg:h-96">
+            <div className="w-full h-72 md:h-[450px]">
               <Image
                 className="object-cover w-full h-full shadow-lg"
                 src={card.imageUrl}
                 alt={card.title}
-                width={700}
-                height={700}
+                width={450}
+                height={450}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>
           </div>
-          <div className="text-black bg-secondary-101">
+          <div className="text-black bg-secondary-101 p-6">
             {/* border large */}
             <div className="flex-col justify-start hidden gap-4 lg:flex">
               <div className="w-2/5 border-b-4 border-primary-300"></div>
@@ -48,11 +48,11 @@ const GridBeauty = () => {
             </div>
             <p className="mb-4 leading-relaxed">{card.text}</p>
             <div className="pt-4 text-base text-gray-500">
-              <div className="w-3/6 pb-1 mb-1 md:w-2/6">{card.price}</div>
+              <div className="pb-1 mb-1">{card.price}</div>
             </div>
             <button
-              href="#"
-              className="block px-4 py-2 mt-8 text-base text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
+              href="/contact"
+              className="mb-8 block px-10 py-2 mt-8 text-base text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
             >
               Book now
             </button>

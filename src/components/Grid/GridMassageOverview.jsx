@@ -16,7 +16,7 @@ const GridMassageOverview = () => {
       price1: "R420 (60 minutes)",
       price2: "R600 (90 minutes)",
       price3: "R800 (120 minutes)",
-      imageUrl: "/assets/grid/oil.webp",
+      imageUrl: "/assets/grid/oilMix.webp",
     },
     {
       title: "Thai Hot Oil Massage",
@@ -58,14 +58,14 @@ const GridMassageOverview = () => {
     },
   ];
   return (
-    <div className="w-5/6 mx-auto lg:11/12">
+    <div className="md:w-5/6 mx-auto lg:w-11/12">
       {cards.map((card, index) => (
         <div
           key={index}
-          className="grid items-center gap-10 p-4 lg:gap-20 lg:grid-cols-2 lg:pb-14"
+          className="grid items-center lg:gap-20 lg:grid-cols-2 lg:pb-14"
         >
           <div className="flex justify-center lg:justify-start">
-            <div className="w-full h-64 lg:h-80">
+            <div className="w-full h-64 md:h-96">
               <Image
                 className="object-cover w-full h-full shadow-lg"
                 src={card.imageUrl}
@@ -76,7 +76,7 @@ const GridMassageOverview = () => {
               />
             </div>
           </div>
-          <div className="text-black bg-white ">
+          <div className="text-black bg-white p-6">
             {/* border large */}
             <div className="flex-col justify-start hidden gap-4 lg:flex">
               <div className="w-2/5 border-b-4 border-primary-300"></div>
@@ -89,7 +89,7 @@ const GridMassageOverview = () => {
               <div className="absolute bottom-[-8px] w-20 h-0.5 bg-primary-300"></div>
             </div>
             <p className="mb-4 leading-relaxed">{card.text}</p>
-            <div className="pt-4 text-xs text-gray-500">
+            <div className="pt-4 text-sm text-secondary-700">
               <div className="w-3/6 pb-1 mb-1 border-b border-gray-300 md:w-2/6">
                 {card.price1}
               </div>
@@ -101,8 +101,8 @@ const GridMassageOverview = () => {
               </div>
             </div>
             <button
-              href="#"
-              className="block px-4 py-2 mt-8 text-base text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
+              href="/contact"
+              className="mb-12 block px-10 py-2 mt-8 text-base text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
             >
               Book now
             </button>

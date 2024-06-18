@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Button1 = () => {
   return (
-    <section className="relative h-64 bg-center bg-no-repeat bg-cover">
+    <section className="relative h-72 bg-center bg-no-repeat bg-cover">
       <div className="absolute inset-0 z-0">
         <picture>
           {/* Mobile Image */}

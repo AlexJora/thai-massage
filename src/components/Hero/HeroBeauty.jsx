@@ -36,7 +36,7 @@ const HeroBeauty = () => {
             href="/contact"
             className="block w-auto px-6 py-4 text-lg text-left text-white bg-white border-2 border-white bg-opacity-20 hover:bg-black hover:text-white focus:outline-none focus:ring"
           >
-            CONTACT US
+            SESSION REQUEST
           </button>
         </div>
       </div>

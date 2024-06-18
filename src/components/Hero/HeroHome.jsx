@@ -9,7 +9,7 @@ const HeroHome = () => {
         <div className="z-20 max-w-xl mx-auto text-center lg:w-3/4 lg:mx-0">
           <div className="p-8 bg-black bg-opacity-50 rounded-md">
             <div className="text-3xl leading-loose">
-              <h1 className="font-sans text-white">
+              <h1 className="text-white">
                 DISCOVER
                 <br></br>
                 <span className="text-primary-200 md:text-5xl">
@@ -25,7 +25,7 @@ const HeroHome = () => {
             <div className="flex flex-wrap justify-center mt-10">
               <a
                 href="/contact"
-                className="block w-auto px-6 py-4 text-lg text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-200"
+                className="block w-auto px-10 py-4 text-lg text-left text-white border-2 border-white hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-200"
               >
                 CONTACT US
               </a>
