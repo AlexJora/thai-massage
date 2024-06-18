@@ -3,8 +3,8 @@ import Form from "@/components/Form";
 const Contact = () => {
   return (
     <div className="min-h-screen">
-      <div className="flex items-center justify-center w-full bg-secondary-200 h-44">
-        <h1 className="text-4xl font-semibold text-white">CONTACT</h1>
+      <div className="flex items-center justify-center w-full bg-secondary-400 h-72">
+        <h1 className="text-4xl text-white md:text-5xl">CONTACT</h1>
       </div>
 
       <div className="w-full py-10 mx-auto lg:py-16 bg-secondary-101">

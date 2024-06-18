@@ -16,7 +16,7 @@ const GridMassageHome = () => {
       price1: "R420 (60 minutes)",
       price2: "R600 (90 minutes)",
       price3: "R800 (120 minutes)",
-      imageUrl: "/assets/grid/oil.webp",
+      imageUrl: "/assets/grid/oilMix.webp",
     },
     {
       title: "Foot Reflexology",

@@ -1,7 +1,7 @@
 import Image from "next/image";
 const HeroThaiNoOil = () => {
   return (
-    <section className="relative bg-center bg-no-repeat bg-cover h-96">
+    <section className="relative bg-center bg-no-repeat bg-cover h-96 md:h-[500px]">
       <div className="absolute inset-0 z-0">
         <picture>
           {/* Mobile Image */}
@@ -24,18 +24,19 @@ const HeroThaiNoOil = () => {
             layout="fill"
           />
         </picture>
-        {/* Black Overlay */}
-        {/* <div className="absolute inset-0 w-full h-full bg-black opacity-50"></div> */}
       </div>
-      <div className="relative z-20 flex flex-col items-start justify-center h-full max-w-screen-xl px-4 py-16 mx-auto text-center">
-        {/* Content Container */}
-        <div className="z-20 max-w-xl">
-          <div className="text-4xl leading-relaxed">
-            <h1 className="font-sans text-white">
-              {" "}
-              TRADITIONAL THAI MASSAGE <br></br>
-              {/* <span className="text-2xl">WITHOUT OIL</span> */}
-            </h1>
+      <div className="relative z-20 flex flex-col lg:items-start items-center justify-center h-full max-w-screen-xl mx-auto px-4">
+        <div className="text-center">
+          <h1 className="text-4xl text-white md:text-5xl leading-relaxed">
+            TRADITIONAL THAI MASSAGE
+          </h1>
+          <div className="pt-8 md:pt-14">
+            <a
+              href="/contact"
+              className="inline-block px-6 py-4 text-lg text-white bg-white border-2 border-white bg-opacity-20 hover:bg-black hover:text-white focus:outline-none focus:ring"
+            >
+              SESSION REQUEST
+            </a>
           </div>
         </div>
       </div>

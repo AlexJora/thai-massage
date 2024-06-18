@@ -1,10 +1,10 @@
 import Button2 from "@/components/Button/Button2";
-import HeroOil from "@/components/Hero/HeroOil";
+import HeroHotOil from "@/components/Hero/HeroHotOil";
 import Image from "next/image";
 const ThaiHotOilMassage = () => {
   return (
     <div className="bg-secondary-101">
-      <HeroOil />
+      <HeroHotOil />
       <div className="py-16 lg:py-24">
         <p className="px-6 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">
           <span className="font-semibold">Thai Hot Oil Massage</span> is a

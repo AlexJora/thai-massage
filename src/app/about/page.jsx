@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
       <HeroAbout />
-      <div className="py-16 lg:py-24">
+      <div className="py-14">
         <p className="px-6 pb-3 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">
         <span className="font-semibold">Our vision</span> is to create delight for our customers, making their satisfaction our greatest pleasure.
         </p>
@@ -31,7 +31,7 @@ const About = () => {
       </div>
     </div>
     {/* ETIQUETTE */}
-    <div className="py-20">
+    <div className="py-12">
     <h2 className="px-6 pb-6 text-3xl text-center ">Our Spa Etiquette</h2>
     <ul className="px-10 space-y-8 list-disc list-inside lg:px-28">
       <li>Please feel free to discuss your treatment with your therapist: let her know if you have any special requirements or disabilities so that your visit is comfortable.</li>

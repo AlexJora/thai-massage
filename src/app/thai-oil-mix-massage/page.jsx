@@ -1,10 +1,10 @@
-import HeroThaiOil from "@/components/Hero/HeroThaiOil";
+import HeroMixOil from "@/components/Hero/HeroMixOil";
 import Button1 from "@/components/Button/Button1";
 import Image from "next/image";
 const ThaiOilMixMassage = () => {
   return (
     <div>
-      <HeroThaiOil />
+      <HeroMixOil />
       <div className="py-16 lg:py-24">
         <p className="px-6 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">
           A relaxing and therapeutic massage that combines Traditional Thai

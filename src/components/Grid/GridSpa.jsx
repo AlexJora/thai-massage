@@ -31,7 +31,7 @@ const GridSpa = () => {
       </div>
       <div className="relative z-10">
         <div className="py-16 lg:py-24">
-          <h1 className="px-6 pb-6 text-3xl text-center">Spa Packages</h1>
+          
           <p className="px-6 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">
             Embark on a journey to relaxation at{" "}
             <span className="font-semibold">Ruan Thai</span> , where our
