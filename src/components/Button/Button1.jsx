@@ -2,28 +2,28 @@ import Image from "next/image";
 
 const Button1 = () => {
   return (
-    <section className="relative bg-center bg-no-repeat bg-cover h-72">
+    <section className="relative bg-center bg-no-repeat bg-cover h-80">
       <div className="absolute inset-0 z-0">
         <picture>
           {/* Mobile Image */}
-          <source media="(max-width: 768px)" srcSet="/assets/spa-sm.jpg" />
+          <source media="(max-width: 768px)" srcSet="/assets/button/button1-sm.webp" />
 
           {/* Desktop Image */}
-          <source media="(min-width: 769px)" srcSet="/assets/spa-lg.jpg" />
+          <source media="(min-width: 769px)" srcSet="/assets/button/button1-lg.webp" />
 
           {/* Fallback Image */}
           <Image
-            src="/assets/spa-lg.jpg"
-            alt="Hero Image"
-            className="object-cover w-full h-full"
-            layout="fill"
+            src="/assets/button/button1-lg.webp"
+            alt="spa decoration"
+            fill
+            objectFit="cover"
+            className="w-full h-full"
           />
         </picture>
         {/* Black Overlay */}
         <div className="absolute inset-0 w-full h-full bg-black opacity-40"></div>
       </div>
       <div className="relative z-20 flex flex-col items-center justify-center h-full max-w-screen-xl px-4 py-16 mx-auto text-center">
-        
         <div className="flex flex-wrap justify-center my-16">
           <button
             href="/contact"

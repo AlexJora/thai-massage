@@ -1,7 +1,7 @@
 import GridMassageOverview from "@/components/Grid/GridMassageOverview";
 import GridMassage from "@/components/Grid/GridMassageOverview";
 import HeroOverview from "@/components/Hero/HeroOverview";
-import Button2 from "@/components/Button/Button2";
+import Button3 from "@/components/Button/Button3";
 const MassageOverview = () => {
   return (
     <div className="">
@@ -22,7 +22,7 @@ const MassageOverview = () => {
         </p>
       </div>
       <GridMassageOverview />
-      <Button2/>
+      <Button3/>
       
     </div>
     

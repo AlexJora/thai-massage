@@ -1,7 +1,7 @@
 import HeroHome from "@/components/Hero/HeroHome";
 import GridMassageHome from "@/components/Grid/GridMassageHome";
 import MassageBenefits from "@/components/MassageBenefits";
-import Button1 from "@/components/Button/Button1";
+import Button3 from "@/components/Button/Button3";
 import Testimonials from "@/components/Testimonials";
 import Image from "next/image";
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
       <GridMassageHome />
       <Testimonials/> 
       <MassageBenefits />
-      <Button1 />
+      <Button3 />
     </div>
   );
 }

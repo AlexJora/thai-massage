@@ -1,4 +1,4 @@
-import Button2 from "@/components/Button/Button2";
+import Button1 from "@/components/Button/Button1";
 import HeroHotOil from "@/components/Hero/HeroHotOil";
 import Image from "next/image";
 const ThaiHotOilMassage = () => {
@@ -64,7 +64,7 @@ const ThaiHotOilMassage = () => {
           its own unique benefits and properties.
         </p>
       </div>
-      <Button2 />
+      <Button1 />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import HeroBeauty from "@/components/Hero/HeroBeauty";
 import GridBeauty from "@/components/Grid/GridBeauty";
-import Button1 from "@/components/Button/Button1";
+import Button3 from "@/components/Button/Button3";
 
 const Beauty = () => {
   return (
@@ -16,7 +16,7 @@ const Beauty = () => {
         </p>
       </div>
       <GridBeauty />
-      <Button1 />
+      <Button3 />
     </div>
   );
 };
