@@ -1,11 +1,16 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import { FaFacebook } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { FaAngleUp } from "react-icons/fa6";
 const Footer = () => {
+  const handleScrollUp = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
-    <footer className="py-12 text-white bg-primary-400">
-      <div className="container flex flex-wrap justify-between mx-auto">
+    <footer className="relative pt-10 text-white bg-primary-400">
+      <div className="container flex flex-wrap justify-between mx-auto lg:px-16">
         {/* Column 1: Logo */}
         <div className="w-full pl-4 mb-8 md:w-1/4 md:mb-0">
           <div className="flex flex-col mb-4">
@@ -52,7 +57,7 @@ const Footer = () => {
         </div>
 
         {/* Column 3: Beauty Treatments */}
-        <div className="w-full pl-4 mb-8 md:w-1/4 md:mb-0">
+        <div className="relative w-full pl-4 mb-8 md:w-1/4 md:mb-0">
           <h2 className="mb-3 text-lg font-bold text-secondary-300">
             Treatments
           </h2>
@@ -63,7 +68,22 @@ const Footer = () => {
             <li>
               <a href="/spa-packages">Spa Packages</a>
             </li>
+            
           </ul>
+          {/* Scroll to Top Icon for larger screens */}
+         <div
+          onClick={handleScrollUp}
+          className="justify-start hidden pt-10 md:flex"
+        >
+          <FaAngleUp className="w-12 h-12 text-secondary-500" />
+        </div>
+          {/* Scroll to Top Icon for smaller screens */}
+          <div
+            onClick={handleScrollUp}
+            className="absolute top-0 border rounded-lg right-6 md:hidden border-secondary-500"
+          >
+            <FaAngleUp className="w-10 h-10 text-secondary-500" />
+          </div>
         </div>
 
         {/* Column 4: Contact Ruan Thai */}
@@ -94,13 +114,16 @@ const Footer = () => {
               Monday to Sunday: 10:00 am to 7:00 pm
             </span>
           </p>
+         
         </div>
+         
+        
       </div>
-
-      {/* Copyright */}
-      <div className="mt-4 text-xs text-center text-secondary-300">
+ {/* Copyright */}
+ <div className="h-4 py-8 text-xs text-center text-secondary-300">
         <p>© 2024 Ruan Thai - All rights reserved.</p>
       </div>
+     
     </footer>
   );
 };
