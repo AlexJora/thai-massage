@@ -22,7 +22,7 @@ const GridSpa = () => {
     },
   ];
   return (
-    <div className="relative w-full pb-20 md:w-5/6 mx-auto lg:w-11/12">
+    <div className="relative w-full pb-20 mx-auto md:w-5/6 lg:w-full">
       <div
         className="absolute inset-0 z-0 hidden bg-center bg-cover lg:block"
         style={{ backgroundImage: "url('/assets/bg-spa.jpg')" }}
@@ -62,7 +62,7 @@ const GridSpa = () => {
                 />
               </div>
             </div>
-            <div className="text-black p-6">
+            <div className="p-6 text-black">
               {/* border large */}
               <div className="flex-col justify-start hidden gap-4 lg:flex">
                 <div className="w-2/5 border-b-4 border-primary-300"></div>
@@ -80,7 +80,7 @@ const GridSpa = () => {
               </div>
               <button
                 href="/contact"
-                className=" block mb-8 px-10 py-2 mt-8 text-base text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
+                className="block px-10 py-2 mt-8 mb-8 text-base text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
               >
                 Book now
               </button>
