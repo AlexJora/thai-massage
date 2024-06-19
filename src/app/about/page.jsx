@@ -17,15 +17,15 @@ const About = () => {
       <h2 className="px-6 pb-6 text-3xl text-center ">Our Facilities</h2>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-20">
         <div className="flex items-center justify-center">
-          <Image src="/assets/sample1.jpg" alt="Facility 1" width={400}
+          <Image src="/assets/sample.jpg" alt="Facility 1" width={400}
         height={400} />
         </div>
         <div className="flex items-center justify-center">
-          <Image src="/assets/sample2.jpg" alt="Facility 2" width={400}
+          <Image src="/assets/sample.jpg" alt="Facility 2" width={400}
         height={400} />
         </div>
         <div className="flex items-center justify-center">
-          <Image src="/assets/sample3.jpg" alt="Facility 3" width={400}
+          <Image src="/assets/sample.jpg" alt="Facility 3" width={400}
         height={400} />
         </div>
       </div>

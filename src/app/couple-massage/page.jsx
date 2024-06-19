@@ -37,34 +37,30 @@ const CoupleMassage = () => {
               emotional well-being, reducing symptoms of depression and anxiety.
             </p>
           </div>
-          <div className="w-full lg:w-1/2">
-            <div className="w-full h-auto md:h-96 lg:h-auto">
-              <Image
-                src="/assets/couple2.jpg"
-                alt="Thai Massage"
-                width={600}
-                height={600}
-                objectFit="cover"
-                className="w-full h-auto"
-              />
-            </div>
+
+          <div className="relative w-full lg:w-1/2 h-80 md:h-[400px] lg:h-[500px]">
+            <Image
+              src="/assets/massage-pages/couple2.webp"
+              alt="Thai Massage"
+              fill
+              objectFit="cover"
+              className="w-full h-auto"
+            />
           </div>
         </div>
       </div>
       <div className="mx-auto">
         <div className="flex flex-col items-center lg:flex-row lg:items-stretch">
-          <div className="w-full lg:w-1/2">
-            <div className="w-full h-auto md:h-96 lg:h-auto">
-              <Image
-                src="/assets/couple22.jpg"
-                alt="Thai Massage"
-                width={600}
-                height={600}
-                objectFit="cover"
-                className="w-full h-auto"
-              />
-            </div>
+          <div className="relative w-full lg:w-1/2 h-80 md:h-[400px] lg:h-[500px]">
+            <Image
+              src="/assets/massage-pages/couple3.webp"
+              alt="Thai Massage"
+              fill
+              objectFit="cover"
+              className="w-full h-auto"
+            />
           </div>
+
           <div className="flex flex-col justify-center bg-primary-100 lg:w-1/2 lg:px-4">
             <h2 className="px-6 pt-12 pb-6 text-3xl leading-9 text-center lg:pt-8 lg:text-left lg:leading-10">
               Benefits of Couple Massage for Relationship Dynamics
@@ -87,12 +83,13 @@ const CoupleMassage = () => {
       </div>
       <div className="mx-auto">
         <h2 className="px-6 pt-12 pb-4 text-3xl text-center lg:pt-20">
-          Lorem ipsum dolor sit amet
+          Couple's Massage Rooms
         </h2>
         <p className="px-6 pb-12 text-base leading-7 text-center lg:pb-20 lg:text-lg">
-          Lorem ipsum dolor sit amet. Est molestiae aliquam qui eius delectus id
-          harum rerum est ullam sunt. Ut ipsam voluptatem aut temporibus sequi
-          est fugit quasi hic labore soluta ad sequi rerum.
+          For those couples who can’t stand to be apart. Our double massage
+          rooms allow you to be close to your partner, gaze into his/her eyes
+          and share your experience while still enjoying privacy from the
+          outside world.
         </p>
       </div>
 

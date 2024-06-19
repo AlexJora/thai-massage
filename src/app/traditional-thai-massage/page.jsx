@@ -19,18 +19,17 @@ const TraditionalThaiMassage = () => {
       </div>
       <div className="mx-auto">
         <div className="flex flex-col items-center lg:flex-row lg:items-stretch">
-          <div className="w-full lg:w-1/2">
-            <div className="w-full h-auto md:h-96 lg:h-auto">
+          
+            <div className="relative w-full lg:w-1/2 h-80 md:h-[400px] lg:h-[500px]">
               <Image
-                src="/assets/thai2.jpg"
+                src="/assets/massage-pages/traditionalThai1.webp"
                 alt="Thai Massage"
-                width={600}
-                height={600}
+                fill
                 objectFit="cover"
                 className="w-full h-auto"
               />
             </div>
-          </div>
+          
           <div className="flex flex-col justify-center lg:w-1/2 bg-primary-100 lg:px-10 ">
             <h2 className="px-6 pt-12 pb-4 text-3xl text-center lg:text-left">
               Massage Techniques

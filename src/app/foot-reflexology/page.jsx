@@ -18,7 +18,7 @@ const FootReflexology = () => {
       </div>
       <div className="mx-auto">
         <div className="flex flex-col-reverse items-center lg:flex-row lg:items-stretch">
-          <div className="flex flex-col justify-center bg-primary-100 lg:w-1/2 lg:px-10 ">
+          <div className="flex flex-col justify-center bg-primary-100 lg:w-1/2">
             <h2 className="px-6 pt-12 pb-6 text-3xl leading-9 text-center lg:text-left">
               Benefits of Reflexology
             </h2>
@@ -33,36 +33,32 @@ const FootReflexology = () => {
               can be powerful in reducing depression and anxiety.
             </p>
           </div>
-          <div className="w-full lg:w-1/2">
-            <div className="w-full h-auto md:h-96 lg:h-auto">
-              <Image
-                src="/assets/thaiFoot2.jpg"
-                alt="Thai Massage"
-                width={600}
-                height={600}
-                objectFit="cover"
-                className="w-full h-auto"
-              />
-            </div>
+
+          <div className="relative w-full lg:w-1/2 h-80 md:h-[400px] lg:h-[500px]">
+            <Image
+              src="/assets/massage-pages/foot1.webp"
+              alt="foot reflexology"
+              fill
+              objectFit="cover"
+              className="w-full h-auto"
+            />
           </div>
         </div>
       </div>
-      <div className="mx-auto">
+      <div className="mx-auto md:py-10 lg:py-14">
         <div className="flex flex-col items-center lg:flex-row lg:items-stretch">
-          <div className="w-full lg:w-1/2">
-            <div className="w-full h-auto md:h-96 lg:h-auto">
-              <Image
-                src="/assets/points.png"
-                alt="Thai Massage"
-                width={600}
-                height={600}
-                objectFit="cover"
-                className="w-full h-auto"
-              />
-            </div>
+          <div className="relative w-full lg:w-1/2 h-80 md:h-[400px] lg:h-[500px">
+            <Image
+              src="/assets/massage-pages/points.webp"
+              alt="reflexology foot points"
+              fill
+              objectFit="cover"
+              className="w-full h-auto"
+            />
           </div>
+
           <div className="flex flex-col justify-center lg:w-1/2 lg:px-10 ">
-            <h2 className="px-6 pt-12 pb-6 text-3xl leading-9 text-center lg:text-left">
+            <h2 className="px-6 pb-6 text-3xl leading-9 text-center lg:text-left">
               Reflexology and Medical Attention
             </h2>
             <p className="px-6 pb-12 text-base leading-7 text-center lg:text-left lg:text-lg">

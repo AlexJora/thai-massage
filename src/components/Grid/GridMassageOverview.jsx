@@ -32,7 +32,7 @@ const GridMassageOverview = () => {
       title: "Foot Reflexology",
       text: "Reflexology involves the stimulation of 'reflex points' in the hands or feet using thumb and hand techniques.",
 
-      imageUrl: "/assets/grid/foot.jpg",
+      imageUrl: "/assets/massage-pages/foot1.webp",
       price1: "R350 (45 minutes)",
       price2: "R420 (60 minutes)",
       price3: "-",
@@ -58,7 +58,7 @@ const GridMassageOverview = () => {
     },
   ];
   return (
-    <div className="md:w-5/6 mx-auto lg:w-11/12">
+    <div className="mx-auto md:w-5/6 lg:w-11/12">
       {cards.map((card, index) => (
         <div
           key={index}
@@ -76,7 +76,7 @@ const GridMassageOverview = () => {
               />
             </div>
           </div>
-          <div className="text-black bg-white p-6">
+          <div className="p-6 text-black bg-white">
             {/* border large */}
             <div className="flex-col justify-start hidden gap-4 lg:flex">
               <div className="w-2/5 border-b-4 border-primary-300"></div>
@@ -102,7 +102,7 @@ const GridMassageOverview = () => {
             </div>
             <button
               href="/contact"
-              className="mb-12 block px-10 py-2 mt-8 text-base text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
+              className="block px-10 py-2 mt-8 mb-12 text-base text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
             >
               Book now
             </button>

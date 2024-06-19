@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Button2 = () => {
   return (
-    <section className="relative h-72 bg-center bg-no-repeat bg-cover">
+    <section className="relative bg-center bg-no-repeat bg-cover h-72">
       <div className="absolute inset-0 z-0">
         <picture>
           {/* Mobile Image */}
@@ -32,7 +32,7 @@ const Button2 = () => {
         <div className="flex flex-wrap justify-center my-16">
           <button
             href="/contact"
-            className="block w-auto px-6 py-4 text-lg text-left text-black bg-white bg-opacity-50 border-2 border-white hover:bg-black hover:text-white focus:outline-none focus:ring"
+            className="block w-auto px-6 py-4 text-lg text-left text-white bg-white bg-opacity-50 border-2 border-white hover:bg-black hover:text-white focus:outline-none focus:ring"
           >
             SESSION REQUEST
           </button>

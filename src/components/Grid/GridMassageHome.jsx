@@ -22,14 +22,14 @@ const GridMassageHome = () => {
       title: "Foot Reflexology",
       text: "Reflexology involves the stimulation of 'reflex points' in the hands or feet using thumb and hand techniques.",
       price: "R400 (60 minutes)",
-      imageUrl: "/assets/grid/foot.jpg",
+      imageUrl: "/assets/massage-pages/foot1.webp",
       price1: "R350 (45 minutes)",
       price2: "R420 (60 minutes)",
       price3: "-",
     },
   ];
   return (
-    <div className=" mx-auto mt-10">
+    <div className="mx-auto mt-10 ">
       <h1 className="mt-12 mb-12 text-4xl text-center">Main Services</h1>
       <p className="px-6 pb-12 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">
         At Ruan Thai, we offer a wide range of{" "}
@@ -63,13 +63,13 @@ const GridMassageHome = () => {
 
               <p className="mb-4 text-base">{card.text}</p>
               <ul className="pt-4 text-sm text-secondary-700">
-                <li className="pb-1 mb-1 border-b border-gray-300 w-3/6 mx-auto">
+                <li className="w-3/6 pb-1 mx-auto mb-1 border-b border-gray-300">
                   {card.price1}
                 </li>
-                <li className="pb-1 mb-1 border-b border-gray-300 w-3/6 mx-auto">
+                <li className="w-3/6 pb-1 mx-auto mb-1 border-b border-gray-300">
                   {card.price2}
                 </li>
-                <li className="pb-1 mb-1 border-b border-gray-300 w-3/6 mx-auto">
+                <li className="w-3/6 pb-1 mx-auto mb-1 border-b border-gray-300">
                   {card.price3}
                 </li>
               </ul>
@@ -77,7 +77,7 @@ const GridMassageHome = () => {
             <div className="flex justify-center pt-4 pb-2">
               <button
                 href="/massage-overview"
-                className="mb-12 block px-10 py-2 text-base text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
+                className="block px-10 py-2 mb-12 text-base text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
               >
                 Read more
               </button>
