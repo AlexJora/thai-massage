@@ -1,5 +1,6 @@
 import HeroAbout from "@/components/Hero/HeroAbout";
 import Image from "next/image";
+import Button2 from "@/components/Button/Button2";
 
 const About = () => {
   return (
@@ -31,7 +32,7 @@ const About = () => {
       </div>
     </div>
     {/* ETIQUETTE */}
-    <div className="py-12">
+    <div className="py-14">
     <h2 className="px-6 pb-6 text-3xl text-center ">Our Spa Etiquette</h2>
     <ul className="px-10 space-y-8 list-disc list-inside lg:px-28">
       <li>Please feel free to discuss your treatment with your therapist: let her know if you have any special requirements or disabilities so that your visit is comfortable.</li>
@@ -43,6 +44,7 @@ const About = () => {
 
     </ul>
     </div>
+    <Button2/>
     </div>
   );
 };

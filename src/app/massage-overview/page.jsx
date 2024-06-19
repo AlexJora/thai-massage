@@ -1,9 +1,10 @@
 import GridMassageOverview from "@/components/Grid/GridMassageOverview";
 import GridMassage from "@/components/Grid/GridMassageOverview";
 import HeroOverview from "@/components/Hero/HeroOverview";
+import Button2 from "@/components/Button/Button2";
 const MassageOverview = () => {
   return (
-    <div className="pb-10">
+    <div className="">
       <HeroOverview />
       <div className="py-16 lg:py-24">
         <h1 className="px-6 pb-6 text-3xl text-center">Massage Services</h1>
@@ -21,7 +22,10 @@ const MassageOverview = () => {
         </p>
       </div>
       <GridMassageOverview />
+      <Button2/>
+      
     </div>
+    
   );
 };
 

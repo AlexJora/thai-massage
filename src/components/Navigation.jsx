@@ -75,7 +75,7 @@ const Navigation = () => {
           </div>
 
           {/* LARGE SCREEN =======================================*/}
-          <div className="hidden lg:block">
+          <div className="hidden text-lg lg:block pe-6">
             <div className="flex items-center">
               {/* HOME Link */}
               <Link
@@ -102,7 +102,7 @@ const Navigation = () => {
                 </button>
                 {/* MASSAGE dropdown */}
                 {isMassageOpen && (
-                  <div className="absolute z-40 mt-2 origin-top-right shadow-lg w-72 left-10">
+                  <div className="absolute z-40 mt-2 origin-top-right shadow-lg w-[300px] left-10">
                     <div className="py-1 bg-white rounded-md shadow-xs">
                       <Link
                         href="/massage-overview"
@@ -184,7 +184,7 @@ const Navigation = () => {
       {/* MOBILE SCREEN============================= */}
       {isMobileMenuOpen && (
         <div className="lg:hidden">
-          <div className="px-3 pt-2 pb-3 space-y-1 bg-secondary-600">
+          <div className="px-3 pt-2 pb-3 space-y-1 text-lg bg-secondary-600">
             <Link
               href="/"
               className="block w-full px-3 py-2 font-medium text-white focus:outline-none hover:bg-secondary-400 focus:bg-secondary-400"
