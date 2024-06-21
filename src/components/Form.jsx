@@ -1,10 +1,70 @@
-import React from "react";
-
+"use client";
+import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 export default function Form() {
+  const [status, setStatus] = useState("Send Message");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [date, setDate] = useState("");
+  const [time, setTime] = useState("");
+  const [no, setNo] = useState("");
+  const [treatment, setTreatment] = useState("");
+  const [message, setMessage] = useState("");
+  const [notification, setNotification] = useState("");
+
+  const sendMail = () => {
+    const params = {
+      name,
+      email,
+      phone,
+      date,
+      time,
+      no,
+      treatment,
+      message,
+    };
+    const serviceID = process.env.NEXT_PUBLIC_SERVICE_ID;
+    const templateID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
+    const userID = process.env.NEXT_PUBLIC_USER_ID;
+
+    emailjs.send(serviceID, templateID, params, userID).then(
+      (response) => {
+        setStatus("Send Message");
+        setNotification("Your message has been sent successfully!");
+        // Clear input fields after successful submission
+        setName("");
+        setEmail("");
+        setPhone("");
+        setDate("");
+        setTime("");
+        setNo("");
+        setTreatment("");
+        setMessage("");
+
+        // Clear notification after 5 seconds
+        setTimeout(() => setNotification(""), 3000);
+      },
+      (error) => {
+        setStatus("Send Message");
+        setNotification("Something went wrong. Please try again later.");
+
+        // Clear notification after 5 seconds
+        setTimeout(() => setNotification(""), 3000);
+      }
+    );
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setStatus("Sending...");
+    sendMail();
+  };
+
   return (
     <>
       <div className="p-6 rounded-lg bg-primary-80">
-        <form>
+        <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label
               className="block mb-2 text-sm font-bold text-gray-700"
@@ -17,6 +77,9 @@ export default function Form() {
               id="name"
               type="text"
               placeholder="Your name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              required
             />
           </div>
           <div className="mb-4">
@@ -31,6 +94,9 @@ export default function Form() {
               id="email"
               type="email"
               placeholder="Your email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
             />
           </div>
           <div className="mb-4">
@@ -45,6 +111,9 @@ export default function Form() {
               id="phone"
               type="phone"
               placeholder="Your phone number"
+              value={phone}
+              onChange={(e) => setPhone(e.target.value)}
+              required
             />
           </div>
           <div className="mb-4">
@@ -59,6 +128,9 @@ export default function Form() {
               id="date"
               type="date"
               placeholder="Date"
+              value={date}
+              onChange={(e) => setDate(e.target.value)}
+              required
             />
           </div>
           <div className="mb-4">
@@ -73,6 +145,9 @@ export default function Form() {
               id="time"
               type="time"
               placeholder="Time"
+              value={time}
+              onChange={(e) => setTime(e.target.value)}
+              required
             />
           </div>
           <div className="mb-4">
@@ -87,6 +162,9 @@ export default function Form() {
               id="no"
               type="number"
               placeholder="No. of people"
+              value={no}
+              onChange={(e) => setNo(e.target.value)}
+              required
             />
           </div>
           <div className="relative mb-4">
@@ -100,8 +178,9 @@ export default function Form() {
               <select
                 className="w-full px-3 py-2 pr-10 text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
                 id="treatment"
-                defaultValue=""
-                style={{ appearance: "none" }}
+                value={treatment}
+                onChange={(e) => setTreatment(e.target.value)}
+                required
               >
                 <option value="" disabled>
                   Select a treatment
@@ -167,15 +246,29 @@ export default function Form() {
               id="message"
               placeholder="Your message"
               rows="5"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
+              required
             />
           </div>
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col justify-start">
             <button
-              className="px-4 py-2 font-bold text-white bg-primary-350 hover:bg-black focus:outline-none focus:shadow-outline"
-              type="button"
+              className="px-4 py-4 mt-4 font-bold text-white lg:w-2/4 bg-primary-350 hover:bg-black focus:outline-none focus:shadow-outline"
+              type="submit"
             >
-              Send Message
+              {status}
             </button>
+            {notification && (
+              <p
+                className={`mt-2 text-sm ${
+                  notification.includes("successfully")
+                    ? "text-green-600"
+                    : "text-red-600"
+                }`}
+              >
+                {notification}
+              </p>
+            )}
           </div>
         </form>
       </div>
