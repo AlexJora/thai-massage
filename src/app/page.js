@@ -2,7 +2,7 @@ import HeroHome from "@/components/Hero/HeroHome";
 import GridMassageHome from "@/components/Grid/GridMassageHome";
 import MassageBenefits from "@/components/MassageBenefits";
 import Button3 from "@/components/Button/Button3";
-import Testimonials from "@/components/Testimonials";
+// import Testimonials from "@/components/Testimonials";
 import Image from "next/image";
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
         </p>
       </div>
       <GridMassageHome />
-      <Testimonials/> 
+      {/* <Testimonials/>  */}
       <MassageBenefits />
       <Button3 />
     </div>

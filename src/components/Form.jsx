@@ -13,7 +13,8 @@ export default function Form() {
   const [message, setMessage] = useState("");
   const [notification, setNotification] = useState("");
 
-  const sendMail = () => {
+  const sendMail = async () => {
+    console.log("sendMail called");
     const params = {
       name,
       email,
@@ -28,38 +29,89 @@ export default function Form() {
     const templateID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
     const userID = process.env.NEXT_PUBLIC_USER_ID;
 
-    emailjs.send(serviceID, templateID, params, userID).then(
-      (response) => {
-        setStatus("Send Message");
-        setNotification("Your message has been sent successfully!");
-        // Clear input fields after successful submission
-        setName("");
-        setEmail("");
-        setPhone("");
-        setDate("");
-        setTime("");
-        setNo("");
-        setTreatment("");
-        setMessage("");
+    console.log("Params:", params);
+    console.log("Service ID:", serviceID);
+    console.log("Template ID:", templateID);
+    console.log("User ID:", userID);
 
-        // Clear notification after 5 seconds
-        setTimeout(() => setNotification(""), 3000);
-      },
-      (error) => {
-        setStatus("Send Message");
-        setNotification("Something went wrong. Please try again later.");
+    try {
+      const response = await emailjs.send(serviceID, templateID, params, userID);
+      console.log("Email sent successfully:", response);
+      setStatus("Send Message");
+      setName("");
+      setEmail("");
+      setPhone("");
+      setDate("");
+      setTime("");
+      setNo("");
+      setTreatment("");
+      setMessage("");
+      setNotification("Your message has been sent successfully!");
 
-        // Clear notification after 5 seconds
-        setTimeout(() => setNotification(""), 3000);
-      }
-    );
+      setTimeout(() => setNotification(""), 3000);
+    } catch (error) {
+      console.error("Error sending email:", error);
+      setStatus("Send Message");
+      setNotification("Something went wrong. Please try again later.");
+
+      setTimeout(() => setNotification(""), 3000);
+    }
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log("handleSubmit called");
     setStatus("Sending...");
     sendMail();
   };
+
+  // const sendMail = () => {
+  //   const params = {
+  //     name,
+  //     email,
+  //     phone,
+  //     date,
+  //     time,
+  //     no,
+  //     treatment,
+  //     message,
+  //   };
+  //   const serviceID = process.env.NEXT_PUBLIC_SERVICE_ID;
+  //   const templateID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
+  //   const userID = process.env.NEXT_PUBLIC_USER_ID;
+
+  //   emailjs.send(serviceID, templateID, params, userID).then(
+  //     (response) => {
+  //       setStatus("Send Message");
+  //       setNotification("Your message has been sent successfully!");
+  //       // Clear input fields after successful submission
+  //       setName("");
+  //       setEmail("");
+  //       setPhone("");
+  //       setDate("");
+  //       setTime("");
+  //       setNo("");
+  //       setTreatment("");
+  //       setMessage("");
+
+  //       // Clear notification after 3 seconds
+  //       setTimeout(() => setNotification(""), 3000);
+  //     },
+  //     (error) => {
+  //       setStatus("Send Message");
+  //       setNotification("Something went wrong. Please try again later.");
+
+  //       // Clear notification after 3 seconds
+  //       setTimeout(() => setNotification(""), 3000);
+  //     }
+  //   );
+  // };
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setStatus("Sending...");
+  //   sendMail();
+  // };
 
   return (
     <>
@@ -185,8 +237,8 @@ export default function Form() {
                 <option value="" disabled>
                   Select a treatment
                 </option>
-                <optgroup label="Massage Treatments">
-                  <option value="head_back_neck_shoulder">
+                <optgroup className="text-sm md:text-base" label="MASSAGE TREATMENTS">
+                  <option  value="head_back_neck_shoulder">
                     Head, Back, Neck, Shoulder
                   </option>
                   <option value="foot_reflexology">Foot Reflexology</option>
@@ -207,14 +259,14 @@ export default function Form() {
                   </option>
                   <option value="hot_stone_massage">Hot Stone Massage</option>
                 </optgroup>
-                <optgroup label="Beauty Treatments">
+                <optgroup className="text-sm md:text-base" label="BEAUTY TREATMENTS">
                   <option value="deep_cleansing_facial">
                     Deep Cleansing Facial
                   </option>
 
                   <option value="body_scrub">Body Scrub</option>
                 </optgroup>
-                <optgroup label="Spa Packages">
+                <optgroup className="text-sm md:text-base" label="SPA PACKAGES">
                   <option value="happy_feet_package">Happy Feet Package</option>
                   <option value="in_a_rush_package">In a Rush Package</option>
                   <option value="anti_stress_package">
