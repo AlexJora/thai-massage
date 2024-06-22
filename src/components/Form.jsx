@@ -65,53 +65,7 @@ export default function Form() {
     sendMail();
   };
 
-  // const sendMail = () => {
-  //   const params = {
-  //     name,
-  //     email,
-  //     phone,
-  //     date,
-  //     time,
-  //     no,
-  //     treatment,
-  //     message,
-  //   };
-  //   const serviceID = process.env.NEXT_PUBLIC_SERVICE_ID;
-  //   const templateID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
-  //   const userID = process.env.NEXT_PUBLIC_USER_ID;
-
-  //   emailjs.send(serviceID, templateID, params, userID).then(
-  //     (response) => {
-  //       setStatus("Send Message");
-  //       setNotification("Your message has been sent successfully!");
-  //       // Clear input fields after successful submission
-  //       setName("");
-  //       setEmail("");
-  //       setPhone("");
-  //       setDate("");
-  //       setTime("");
-  //       setNo("");
-  //       setTreatment("");
-  //       setMessage("");
-
-  //       // Clear notification after 3 seconds
-  //       setTimeout(() => setNotification(""), 3000);
-  //     },
-  //     (error) => {
-  //       setStatus("Send Message");
-  //       setNotification("Something went wrong. Please try again later.");
-
-  //       // Clear notification after 3 seconds
-  //       setTimeout(() => setNotification(""), 3000);
-  //     }
-  //   );
-  // };
-
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   setStatus("Sending...");
-  //   sendMail();
-  // };
+  
 
   return (
     <>
