@@ -2,6 +2,7 @@ import HeroCouple from "@/components/Hero/HeroCouple";
 import Image from "next/image";
 import Button1 from "@/components/Button/Button1";
 
+
 export const metadata = {
   title: "Couple Massage - Ruan Thai",
   description: "Discover Couple Massage at Ruan Thai",
@@ -14,6 +15,8 @@ export const metadata = {
 
 const CoupleMassage = () => {
   return (
+    <>
+    
     <div>
       <HeroCouple />
       <div className="py-16 lg:py-24">
@@ -106,6 +109,7 @@ const CoupleMassage = () => {
 
       <Button1 />
     </div>
+    </>
   );
 };
 

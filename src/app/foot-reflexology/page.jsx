@@ -2,6 +2,7 @@ import HeroFoot from "@/components/Hero/HeroFoot";
 import Button1 from "@/components/Button/Button1";
 import Image from "next/image";
 
+
 export const metadata = {
   title: "Foot Reflexology  - Ruan Thai",
   description: "Discover Foot Reflexology at Ruan Thai.",
@@ -14,6 +15,7 @@ export const metadata = {
 const FootReflexology = () => {
   return (
     <div>
+      
       <HeroFoot />
       <div className="py-16 lg:py-24">
         <h1 className="px-6 pb-6 text-3xl text-center">What is reflexology?</h1>

@@ -16,7 +16,9 @@ export const metadata = {
 
 const About = () => {
   return (
-    <div>
+    <>
+    
+    <div> 
       <HeroAbout />
       <div className="py-14">
         <p className="px-6 pb-3 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">
@@ -58,6 +60,7 @@ const About = () => {
     </div>
     <Button2/>
     </div>
+    </>
   );
 };
 
