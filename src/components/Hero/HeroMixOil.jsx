@@ -22,7 +22,7 @@ const HeroMixOil = () => {
             src="/assets/hero/heroThaiOil-lg.webp"
             alt="Hero Image"
             className="object-cover w-full h-full"
-            layout="fill"
+            fill
           />
         </picture>
         {/* Black Overlay */}

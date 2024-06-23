@@ -35,8 +35,7 @@ const TraditionalThaiMassage = () => {
                 src="/assets/massage-pages/traditionalThai1.webp"
                 alt="Thai Massage"
                 fill
-                objectFit="cover"
-                className="w-full h-auto"
+                className="object-cover w-full h-auto"
               />
             </div>
           

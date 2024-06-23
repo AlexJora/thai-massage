@@ -16,8 +16,7 @@ const Button1 = () => {
             src="/assets/button/button1-lg.webp"
             alt="spa decoration"
             fill
-            objectFit="cover"
-            className="w-full h-full"
+            className="w-full h-full object-cover"
           />
         </picture>
         {/* Black Overlay */}

@@ -22,8 +22,7 @@ const Button2 = () => {
             src="/assets/button/button2-lg.webp"
             alt="spa decoration"
             fill
-              objectFit="cover"
-            className="w-full h-full"
+            className="w-full h-full object-cover"
             
           />
         </picture>

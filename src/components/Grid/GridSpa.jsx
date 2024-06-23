@@ -6,19 +6,19 @@ const GridSpa = () => {
       title: "Happy Feet Package",
       text: "Foot Scrub and Foot Massage",
       price: "R550 ( 90 minutes )",
-      imageUrl: "/assets/grid/happy.jpg",
+      imageUrl: "/assets/grid/happy.webp",
     },
     {
       title: "In a Rush Package",
       text: "Body Scrub, Shower, Oil Massage",
       price: "R850 ( 120 minutes )",
-      imageUrl: "/assets/grid/scrub2.jpg",
+      imageUrl: "/assets/grid/scrub.webp",
     },
     {
       title: "Anti Stress Package",
       text: "Thai Oil Mix, Head, Foot Massage, Shower, Facial",
       price: "R995 ( 150 minutes )",
-      imageUrl: "/assets/grid/antistress.jpg",
+      imageUrl: "/assets/grid/antistress.webp",
     },
   ];
   return (

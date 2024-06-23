@@ -21,7 +21,7 @@ const HeroThaiNoOil = () => {
             src="/assets/hero/heroThaiNoOil-lg.webp"
             alt="Hero Image"
             className="object-cover w-full h-full"
-            layout="fill"
+            fill
           />
         </picture>
       </div>

@@ -8,7 +8,7 @@ const GridMassageHome = () => {
       price1: "R420 (60 minutes)",
       price2: "R600 (90 minutes)",
       price3: "R800 (120 minutes)",
-      imageUrl: "/assets/grid/thaiNoOil.jpg",
+      imageUrl: "/assets/grid/traditionalThai1.webp",
     },
     {
       title: "Thai Oil Mix Massage",
@@ -16,7 +16,7 @@ const GridMassageHome = () => {
       price1: "R420 (60 minutes)",
       price2: "R600 (90 minutes)",
       price3: "R800 (120 minutes)",
-      imageUrl: "/assets/grid/oilMix.webp",
+      imageUrl: "/assets/grid/oilMix1.webp",
     },
     {
       title: "Foot Reflexology",
@@ -40,19 +40,18 @@ const GridMassageHome = () => {
         body scrubs. For a more indulgent experience, try our{" "}
         <span className="font-semibold">spa packages.</span>
       </p>
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+      <div className="grid grid-cols-1 gap-8 md:gap-1 md:grid-cols-3 md:px-4">
         {cards.map((card, index) => (
           <div
             key={index}
             className="max-w-sm mx-auto overflow-hidden text-center bg-white"
           >
-            <div className="relative w-full h-72">
+            <div className="relative w-full h-80">
               <Image
                 src={card.imageUrl}
                 alt={card.title}
                 fill
-                objectFit="cover"
-                className="shadow-lg"
+                className="object-cover shadow-lg"
               />
             </div>
             <div className="px-6 py-6">
@@ -63,13 +62,13 @@ const GridMassageHome = () => {
 
               <p className="mb-4 text-base">{card.text}</p>
               <ul className="pt-4 text-sm text-secondary-700">
-                <li className="w-3/6 pb-1 mx-auto mb-1 border-b border-gray-300">
+                <li className="w-4/6 mx-auto border-b border-gray-300">
                   {card.price1}
                 </li>
-                <li className="w-3/6 pb-1 mx-auto mb-1 border-b border-gray-300">
+                <li className="w-4/6 pt-2 mx-auto border-b border-gray-300">
                   {card.price2}
                 </li>
-                <li className="w-3/6 pb-1 mx-auto mb-1 border-b border-gray-300">
+                <li className="w-4/6 pt-2 mx-auto border-b border-gray-300">
                   {card.price3}
                 </li>
               </ul>

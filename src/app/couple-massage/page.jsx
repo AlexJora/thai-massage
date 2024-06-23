@@ -57,8 +57,7 @@ const CoupleMassage = () => {
               src="/assets/massage-pages/couple2.webp"
               alt="Thai Massage"
               fill
-              objectFit="cover"
-              className="w-full h-auto"
+              className="w-full h-auto object-cover"
             />
           </div>
         </div>
@@ -70,8 +69,7 @@ const CoupleMassage = () => {
               src="/assets/massage-pages/couple3.webp"
               alt="Thai Massage"
               fill
-              objectFit="cover"
-              className="w-full h-auto"
+              className="w-full h-auto object-cover"
             />
           </div>
 

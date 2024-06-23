@@ -50,10 +50,11 @@ const HeroHome = () => {
           />
 
           {/* Fallback Image */}
-          <img
+          <Image
             src="/assets/hero/heroHome-lg.webp"
             alt="Hero Image"
             className="object-cover w-full h-full"
+            fill
           />
         </picture>
       </div>

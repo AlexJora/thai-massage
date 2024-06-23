@@ -21,7 +21,7 @@ const HeroFoot = () => {
             src="/assets/hero/heroFoot-lg.webp"
             alt="Hero Image"
             className="object-cover w-full h-full"
-            layout="fill"
+            fill
           />
         </picture>
         {/* Black Overlay */}

@@ -32,8 +32,7 @@ const ThaiOilMixMassage = () => {
               src="/assets/massage-pages/mixOil2.webp"
               alt="Thai Massage"
               fill
-              objectFit="cover"
-              className="w-full h-auto"
+              className="w-full h-auto object-cover"
             />
           </div>
 

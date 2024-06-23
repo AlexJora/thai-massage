@@ -51,8 +51,7 @@ const FootReflexology = () => {
               src="/assets/massage-pages/foot1.webp"
               alt="foot reflexology"
               fill
-              objectFit="cover"
-              className="w-full h-auto"
+              className="w-full h-auto object-cover"
             />
           </div>
         </div>
@@ -64,8 +63,7 @@ const FootReflexology = () => {
               src="/assets/massage-pages/points.webp"
               alt="reflexology foot points"
               fill
-              objectFit="cover"
-              className="w-full h-auto"
+              className="w-full h-auto object-cover"
             />
           </div>
 
