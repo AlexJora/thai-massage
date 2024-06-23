@@ -1,9 +1,19 @@
 import Button2 from "@/components/Button/Button2";
 
+export const metadata = {
+  title: "Price List - Ruan Thai",
+  description: "Check out our price list for various treatments and services at Ruan Thai.",
+  openGraph: {
+    title: "Price List - Ruan Thai",
+    description: "Check out our price list for various treatments and services at Ruan Thai.",
+    url: "https://www.ruanthaispa.co.za/price-list",
+  }
+};
+
 const PriceList = () => {
   return (
     <>
-      <div className="flex items-center justify-center w-full bg-secondary-400 h-48">
+      <div className="flex items-center justify-center w-full h-48 bg-secondary-400">
         <h1 className="text-4xl text-white md:text-5xl">PRICE LIST</h1>
       </div>
 

@@ -1,6 +1,17 @@
 import HeroCouple from "@/components/Hero/HeroCouple";
 import Image from "next/image";
 import Button1 from "@/components/Button/Button1";
+
+export const metadata = {
+  title: "Couple Massage - Ruan Thai",
+  description: "Discover Couple Massage at Ruan Thai",
+  openGraph: {
+    title: "Couple Massage - Ruan Thai",
+  description: "Discover Couple Massage at Ruan Thai",
+    url: "https://www.ruanthaispa.co.za/couple-massage",
+  },
+};
+
 const CoupleMassage = () => {
   return (
     <div>

@@ -3,7 +3,57 @@ import GridMassageHome from "@/components/Grid/GridMassageHome";
 import MassageBenefits from "@/components/MassageBenefits";
 import Button3 from "@/components/Button/Button3";
 // import Testimonials from "@/components/Testimonials";
-import Image from "next/image";
+
+export const metadata = {
+  title: "Ruan Thai",
+  description:
+    "Discover the authentic Thai massage experience at Ruan Thai Spa in Cape Town. Relax and rejuvenate with our experienced Thai therapists.",
+  keywords: [
+    "massage Cape Town",
+    "thai massage Cape Town",
+    "Thai massage",
+    "Ruan Thai Spa",
+    "massage therapy Cape Town",
+    "Thai spa experience",
+    "Thai therapists Cape Town"
+  ],
+  openGraph: {
+    url: "https://www.ruanthaispa.co.za",
+    type: "website",
+    title: "Ruan Thai",
+    description:
+      "Discover the authentic Thai massage experience at Ruan Thai Spa in Cape Town. Relax and rejuvenate with our experienced Thai therapists.",
+    images: [
+      {
+        url: "https://www.ruanthaispa.co.za/images/home/thumbnail.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Ruan Thai Spa"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ruan Thai Spa - Authentic Thai Massage in Cape Town",
+    description:
+      "Discover the authentic Thai massage experience at Ruan Thai Spa in Cape Town. Relax and rejuvenate with our experienced Thai therapists.",
+    creator: "@yourtwitterhandle", 
+    site: "@yourtwitterhandle", 
+    images: [
+      {
+        url: "https://www.ruanthaispa.co.za/images/home/thumbnail.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Ruan Thai Spa"
+      }
+    ]
+  },
+  alternates: {
+    canonical: "https://www.ruanthaispa.co.za"
+  }
+};
+
+
 export default function Home() {
   return (
     <div>

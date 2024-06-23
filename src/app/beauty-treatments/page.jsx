@@ -1,6 +1,16 @@
 import HeroBeauty from "@/components/Hero/HeroBeauty";
 import GridBeauty from "@/components/Grid/GridBeauty";
 import Button3 from "@/components/Button/Button3";
+export const metadata = {
+  title: "Beauty Treatments - Ruan Thai",
+  description: "Discover our range of beauty treatments at Ruan Thai, designed to rejuvenate and refresh you.",
+  openGraph: {
+    title: "Beauty Treatments - Ruan Thai",
+    description: "Discover our range of beauty treatments at Ruan Thai, designed to rejuvenate and refresh you.",
+    url: "https://www.ruanthaispa.co.za/beauty-treatments",
+  }
+};
+
 
 const Beauty = () => {
   return (

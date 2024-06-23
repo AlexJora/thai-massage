@@ -1,6 +1,16 @@
 import HeroFoot from "@/components/Hero/HeroFoot";
 import Button1 from "@/components/Button/Button1";
 import Image from "next/image";
+
+export const metadata = {
+  title: "Foot Reflexology  - Ruan Thai",
+  description: "Discover Foot Reflexology at Ruan Thai.",
+  openGraph: {
+    title: "Foot Reflexology  - Ruan Thai",
+  description: "Discover Foot Reflexology at Ruan Thai.",
+    url: "https://www.ruanthaispa.co.za/foot-reflexology",
+  },
+};
 const FootReflexology = () => {
   return (
     <div>

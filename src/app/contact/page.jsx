@@ -1,9 +1,19 @@
 import Form from "@/components/Form";
 
+export const metadata = {
+  title: "Contact - Ruan Thai",
+  description: "Get in touch with us at Ruan Thai. We are here to assist you with any inquiries or bookings.",
+  openGraph: {
+    title: "Contact - Ruan Thai",
+    description: "Get in touch with us at Ruan Thai. We are here to assist you with any inquiries or bookings.",
+    url: "https://www.ruanthaispa.co.za/contact",
+  }
+};
+
 const Contact = () => {
   return (
     <div className="min-h-screen">
-      <div className="flex items-center justify-center w-full bg-secondary-400 h-48">
+      <div className="flex items-center justify-center w-full h-48 bg-secondary-400">
         <h1 className="text-4xl text-white md:text-5xl">CONTACT</h1>
       </div>
 

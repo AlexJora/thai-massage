@@ -1,6 +1,16 @@
 import HeroThaiNoOil from "@/components/Hero/HeroThaiNoOil";
 import Image from "next/image";
 import Button2 from "@/components/Button/Button2";
+
+export const metadata = {
+  title: "Traditional Thai Massage - Ruan Thai",
+  description: "Discover Traditional Thai Massage at Ruan Thai.",
+  openGraph: {
+    title: "Traditional Thai Massage - Ruan Thai",
+    description: "Discover Traditional Thai Massage at Ruan Thai.",
+    url: "https://www.ruanthaispa.co.za/traditional-thai-massage",
+  },
+};
 const TraditionalThaiMassage = () => {
   return (
     <div>

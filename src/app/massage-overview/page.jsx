@@ -1,7 +1,16 @@
 import GridMassageOverview from "@/components/Grid/GridMassageOverview";
-import GridMassage from "@/components/Grid/GridMassageOverview";
 import HeroOverview from "@/components/Hero/HeroOverview";
 import Button3 from "@/components/Button/Button3";
+
+export const metadata = {
+  title: "Massage Overview - Ruan Thai",
+  description: "Explore the variety of massages offered at Ruan Thai. Discover the benefits and techniques of Thai massage and more.",
+  openGraph: {
+    title: "Massage Overview - Ruan Thai",
+    description: "Explore the variety of massages offered at Ruan Thai. Discover the benefits and techniques of Thai massage and more.",
+    url: "https://www.ruanthaispa.co.za/massage-overview",
+  },
+};
 const MassageOverview = () => {
   return (
     <div className="">

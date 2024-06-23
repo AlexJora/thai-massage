@@ -2,6 +2,18 @@ import HeroAbout from "@/components/Hero/HeroAbout";
 import Image from "next/image";
 import Button2 from "@/components/Button/Button2";
 
+export const metadata = {
+  title: "About Us - Ruan Thai",
+  description: "Learn more about Ruan Thai, our services, and our experienced Thai therapists in Cape Town.",
+  openGraph: {
+    title: "About Us - Ruan Thai",
+    description: "Learn more about Ruan Thai, our services, and our experienced Thai therapists in Cape Town.",
+    url: "https://www.ruanthaispa.co.za/about",
+   
+  }
+};
+
+
 const About = () => {
   return (
     <div>

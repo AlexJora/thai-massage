@@ -1,6 +1,16 @@
 import Button1 from "@/components/Button/Button1";
 import HeroHotOil from "@/components/Hero/HeroHotOil";
 import Image from "next/image";
+
+export const metadata = {
+  title: "Thai Hot Oil Massage  - Ruan Thai",
+  description: "Discover Thai Hot Oil Massage at Ruan Thai.",
+  openGraph: {
+    title: "Thai Hot Oil Massage  - Ruan Thai",
+  description: "Discover Thai Hot Oil Massage at Ruan Thai.",
+    url: "https://www.ruanthaispa.co.za/thai-hot-oil-massage",
+  },
+};
 const ThaiHotOilMassage = () => {
   return (
     <div className="bg-secondary-101">

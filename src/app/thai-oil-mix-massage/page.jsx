@@ -1,6 +1,16 @@
 import HeroMixOil from "@/components/Hero/HeroMixOil";
 import Button1 from "@/components/Button/Button1";
 import Image from "next/image";
+
+export const metadata = {
+  title: "Thai Oil Mix Massage  - Ruan Thai",
+  description: "Discover Thai Oil Mix Massage at Ruan Thai.",
+  openGraph: {
+    title: "Thai Oil Mix Massage  - Ruan Thai",
+  description: "Discover Thai Oil Mix Massage at Ruan Thai.",
+    url: "https://www.ruanthaispa.co.za/thai-oil-mix-massage",
+  },
+};
 const ThaiOilMixMassage = () => {
   return (
     <div>
