@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: "Contact - Ruan Thai",
     description: "Get in touch with us at Ruan Thai. We are here to assist you with any inquiries or bookings.",
-    url: "https://www.ruanthaispa.co.za/contact",
+    url: "https://www.ruanthai.co.za/contact",
   }
 };
 

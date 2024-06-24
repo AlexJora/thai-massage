@@ -9,7 +9,7 @@ export const metadata = {
   openGraph: {
     title: "Couple Massage - Ruan Thai",
   description: "Discover Couple Massage at Ruan Thai",
-    url: "https://www.ruanthaispa.co.za/couple-massage",
+    url: "https://www.ruanthai.co.za/couple-massage",
   },
 };
 

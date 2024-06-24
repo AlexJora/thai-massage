@@ -11,6 +11,8 @@ export const metadata = {
     "Discover the authentic Thai massage experience at Ruan Thai Spa in Cape Town. Relax and rejuvenate with our experienced Thai therapists.",
   keywords: [
     "massage Cape Town",
+    "massage",
+    "full body massage cape town",
     "thai massage Cape Town",
     "Thai massage",
     "Ruan Thai Spa",
@@ -19,14 +21,14 @@ export const metadata = {
     "Thai therapists Cape Town",
   ],
   openGraph: {
-    url: "https://www.ruanthaispa.co.za",
+    url: "https://www.ruanthai.co.za",
     type: "website",
     title: "Ruan Thai",
     description:
       "Discover the authentic Thai massage experience at Ruan Thai Spa in Cape Town. Relax and rejuvenate with our experienced Thai therapists.",
     images: [
       {
-        url: "https://www.ruanthaispa.co.za/images/home/thumbnail.jpg",
+        url: "https://www.ruanthai.co.za/images/home/thumbnail.jpg",
         width: 1200,
         height: 630,
         alt: "Ruan Thai Spa",
@@ -42,7 +44,7 @@ export const metadata = {
     site: "@yourtwitterhandle",
     images: [
       {
-        url: "https://www.ruanthaispa.co.za/images/home/thumbnail.jpg",
+        url: "https://www.ruanthai.co.za/images/home/thumbnail.jpg",
         width: 1200,
         height: 630,
         alt: "Ruan Thai Spa",
@@ -50,7 +52,7 @@ export const metadata = {
     ],
   },
   alternates: {
-    canonical: "https://www.ruanthaispa.co.za",
+    canonical: "https://www.ruanthai.co.za",
   },
 };
 

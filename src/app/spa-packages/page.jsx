@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "Spa Packages - Ruan Thai",
     description: "Discover our range of Spa Packages at Ruan Thai, designed to rejuvenate and refresh you.",
-    url: "https://www.ruanthaispa.co.za/spa-packages",
+    url: "https://www.ruanthai.co.za/spa-packages",
   }
 };
 const SpaPackages = () => {

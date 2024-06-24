@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "Thai Oil Mix Massage  - Ruan Thai",
   description: "Discover Thai Oil Mix Massage at Ruan Thai.",
-    url: "https://www.ruanthaispa.co.za/thai-oil-mix-massage",
+    url: "https://www.ruanthai.co.za/thai-oil-mix-massage",
   },
 };
 const ThaiOilMixMassage = () => {

@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "About Us - Ruan Thai",
     description: "Learn more about Ruan Thai, our services, and our experienced Thai therapists in Cape Town.",
-    url: "https://www.ruanthaispa.co.za/about",
+    url: "https://www.ruanthai.co.za/about",
    
   }
 };

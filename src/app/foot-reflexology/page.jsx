@@ -9,7 +9,7 @@ export const metadata = {
   openGraph: {
     title: "Foot Reflexology  - Ruan Thai",
   description: "Discover Foot Reflexology at Ruan Thai.",
-    url: "https://www.ruanthaispa.co.za/foot-reflexology",
+    url: "https://www.ruanthai.co.za/foot-reflexology",
   },
 };
 const FootReflexology = () => {

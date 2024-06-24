@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "Beauty Treatments - Ruan Thai",
     description: "Discover our range of beauty treatments at Ruan Thai, designed to rejuvenate and refresh you.",
-    url: "https://www.ruanthaispa.co.za/beauty-treatments",
+    url: "https://www.ruanthai.co.za/beauty-treatments",
   }
 };
 
