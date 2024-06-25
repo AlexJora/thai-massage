@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Button1 = () => {
   return (
@@ -24,12 +25,12 @@ const Button1 = () => {
       </div>
       <div className="relative z-20 flex flex-col items-center justify-center h-full max-w-screen-xl px-4 py-16 mx-auto text-center">
         <div className="flex flex-wrap justify-center my-16">
-          <button
+          <Link
             href="/contact"
             className="block w-auto px-6 py-4 text-lg text-left text-white bg-white bg-opacity-50 border-2 border-white hover:bg-black hover:text-white focus:outline-none focus:ring"
           >
             SESSION REQUEST
-          </button>
+          </Link>
         </div>
       </div>
     </section>

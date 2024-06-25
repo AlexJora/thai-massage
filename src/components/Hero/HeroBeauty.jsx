@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 const HeroBeauty = () => {
   return (
     <section className="relative bg-center bg-no-repeat bg-cover h-96 md:h-[500px]">
@@ -32,12 +33,12 @@ const HeroBeauty = () => {
           BEAUTY TREATMENTS
         </h1>
         <div className="flex flex-wrap justify-center my-16">
-          <button
+          <Link
             href="/contact"
             className="block w-auto px-6 py-4 text-lg text-left text-white bg-white border-2 border-white bg-opacity-20 hover:bg-black hover:text-white focus:outline-none focus:ring"
           >
             SESSION REQUEST
-          </button>
+          </Link>
         </div>
       </div>
     </section>

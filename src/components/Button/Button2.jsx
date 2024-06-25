@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Button2 = () => {
   return (
@@ -31,12 +32,12 @@ const Button2 = () => {
       </div>
       <div className="relative z-20 flex flex-col items-center justify-center h-full max-w-screen-xl px-4 py-16 mx-auto text-center">
         <div className="flex flex-wrap justify-center my-16">
-          <button
+          <Link
             href="/contact"
             className="block w-auto px-6 py-4 text-lg text-left text-white bg-white border-2 border-white bg-opacity-20 hover:bg-black hover:text-white focus:outline-none focus:ring"
           >
             CONTACT US
-          </button>
+          </Link>
         </div>
       </div>
     </section>

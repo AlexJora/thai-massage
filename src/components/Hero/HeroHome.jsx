@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 
 const HeroHome = () => {
   return (
@@ -23,12 +24,12 @@ const HeroHome = () => {
 
             {/* Contact Us Button */}
             <div className="flex flex-wrap justify-center mt-10">
-              <a
+              <Link
                 href="/contact"
                 className="block w-auto px-10 py-4 text-lg text-left text-white border-2 border-white hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-200"
               >
                 CONTACT US
-              </a>
+              </Link>
             </div>
           </div>
         </div>
