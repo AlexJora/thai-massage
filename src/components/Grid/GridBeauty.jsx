@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const GridBeauty = () => {
   const cards = [
@@ -16,7 +17,7 @@ const GridBeauty = () => {
     },
   ];
   return (
-    <div className="pb-10 w-full md:w-5/6 mx-auto lg:w-11/12">
+    <div className="w-full pb-10 mx-auto md:w-5/6 lg:w-11/12">
       {cards.map((card, index) => (
         <div
           key={index}
@@ -34,7 +35,7 @@ const GridBeauty = () => {
               />
             </div>
           </div>
-          <div className="text-black bg-secondary-101 p-6">
+          <div className="p-6 text-black bg-secondary-101">
             {/* border large */}
             <div className="flex-col justify-start hidden gap-4 lg:flex">
               <div className="w-2/5 border-b-4 border-primary-300"></div>
@@ -50,12 +51,12 @@ const GridBeauty = () => {
             <div className="pt-4 text-base text-gray-500">
               <div className="pb-1 mb-1">{card.price}</div>
             </div>
-            <button
+            <Link
               href="/contact"
-              className="mb-8 block px-10 py-2 mt-8 text-base text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
+              className="block w-40 px-10 py-2 mt-8 mb-8 text-base text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
             >
               Book now
-            </button>
+            </Link>
           </div>
         </div>
       ))}

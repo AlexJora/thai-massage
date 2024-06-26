@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const GridMassageHome = () => {
   const cards = [
@@ -74,12 +75,12 @@ const GridMassageHome = () => {
               </ul>
             </div>
             <div className="flex justify-center pt-4 pb-2">
-              <button
+              <Link
                 href="/massage-overview"
                 className="block px-10 py-2 mb-12 text-base text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
               >
                 Read more
-              </button>
+              </Link>
             </div>
           </div>
         ))}

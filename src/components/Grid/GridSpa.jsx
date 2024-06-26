@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const GridSpa = () => {
   const cards = [
@@ -78,12 +79,12 @@ const GridSpa = () => {
               <div className="pt-4 text-base text-gray-500">
                 <div className="w-3/6 pb-1 mb-1 md:w-2/6">{card.price}</div>
               </div>
-              <button
+              <Link
                 href="/contact"
-                className="block px-10 py-2 mt-8 mb-8 text-base text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
+                className="block w-40 px-10 py-2 mt-8 mb-8 text-base text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
               >
                 Book now
-              </button>
+              </Link>
             </div>
           </div>
         ))}

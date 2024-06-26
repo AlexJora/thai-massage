@@ -2,8 +2,11 @@
 import React from "react";
 import Image from "next/image";
 import { FaFacebook } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaAngleUp } from "react-icons/fa6";
+import Link from "next/link";
+
+
 const Footer = () => {
   const handleScrollUp = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -24,14 +27,14 @@ const Footer = () => {
               Connect with Us
             </h2>
           </div>
-          <div className="flex">
-            <div className="pr-6">
+          <div className="flex w-2/4">
+            <Link href="https://www.facebook.com/ruanthaispa" target="_blank" passHref>
               <FaFacebook className="text-3xl text-primary-200" />
-            </div>
-            <div className="">
-              <MdEmail className="text-3xl text-primary-200" />
-            </div>
-          </div>
+            </Link>
+            <Link href="https://x.com/RuanThaiMassage" target="_blank" passHref>
+              <FaSquareXTwitter className="mx-6 text-3xl text-primary-200" />
+            </Link>
+          </div>   
         </div>
 
         {/* Column 2: Massage Treatments */}

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const GridMassageOverview = () => {
   const cards = [
@@ -100,12 +101,12 @@ const GridMassageOverview = () => {
                 {card.price3}
               </div>
             </div>
-            <button
+            <Link
               href="/contact"
-              className="block px-10 py-2 mt-8 mb-12 text-base text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
+              className="block w-40 px-10 py-2 mt-8 mb-12 text-base text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-300"
             >
               Book now
-            </button>
+            </Link>
           </div>
         </div>
       ))}
