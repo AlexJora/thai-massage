@@ -19,9 +19,9 @@ const Footer = () => {
           <div className="flex flex-col mb-4">
             <Image
               src="/assets/logo.webp"
-              alt="Logo"
-              width={120}
-              height={120}
+              alt="Logo Ruan Thai"
+              width={150}
+              height={150}
             />
             <h2 className="text-lg font-bold mt-7 text-secondary-300">
               Connect with Us
