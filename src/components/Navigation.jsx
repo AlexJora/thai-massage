@@ -65,6 +65,7 @@ const Navigation = () => {
             <button
               onClick={toggleMobileMenu}
               className="flex items-center px-3 py-2 text-gray-300 focus:outline-none"
+              aria-label="Toggle navigation"
             >
               {isMobileMenuOpen ? (
                 <IoClose className="text-5xl text-gray-500" />

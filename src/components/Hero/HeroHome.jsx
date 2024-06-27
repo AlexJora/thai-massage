@@ -26,7 +26,7 @@ const HeroHome = () => {
             <div className="flex flex-wrap justify-center mt-10">
               <Link
                 href="/contact"
-                className="block w-auto px-10 py-4 text-lg text-left text-white border-2 border-white hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-200"
+                className="block w-auto px-10 py-4 text-lg text-left text-black border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring bg-primary-200"
               >
                 CONTACT US
               </Link>

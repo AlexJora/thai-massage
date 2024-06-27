@@ -28,10 +28,10 @@ const Footer = () => {
             </h2>
           </div>
           <div className="flex w-2/4">
-            <Link href="https://www.facebook.com/ruanthaispa" target="_blank" passHref>
-              <FaFacebook className="text-3xl text-primary-200" />
+            <Link href="https://www.facebook.com/ruanthaispa" target="_blank" aria-label="Visit our Facebook page" passHref>
+              <FaFacebook className="text-3xl text-primary-200"/>
             </Link>
-            <Link href="https://x.com/RuanThaiMassage" target="_blank" passHref>
+            <Link href="https://x.com/RuanThaiMassage" target="_blank" aria-label="Visit our X (Twitter) page" passHref>
               <FaSquareXTwitter className="mx-6 text-3xl text-primary-200" />
             </Link>
           </div>   

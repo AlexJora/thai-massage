@@ -37,8 +37,8 @@ const MassageBenefits = () => {
           <li key={index} className="flex flex-col items-start">
             <div className="flex items-center mb-2">
               
-              <PiFlowerLotusDuotone className="w-8 h-8 mr-2 text-primary-300" />
-              <h2 className="text-lg font-bold text-primary-300">
+              <PiFlowerLotusDuotone className="w-8 h-8 mr-2 text-primary-350" />
+              <h2 className="text-lg font-bold text-primary-350">
                 {item.title}
               </h2>
             </div>
