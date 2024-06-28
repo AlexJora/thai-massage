@@ -114,7 +114,8 @@ const Footer = () => {
             <span className="font-bold text-primary-200">Hours:</span>
             <span className="text-xs">
               {" "}
-              Monday to Sunday: 10:00 am to 7:00 pm
+              Monday to Sunday: 10:00 am to 7:00 pm<br></br>
+              We work during public holidays
             </span>
           </p>
          

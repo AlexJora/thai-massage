@@ -5,13 +5,13 @@ const GridBeauty = () => {
   const cards = [
     {
       title: "Deep Cleansing Facial",
-      text: "A deep cleansing facial is a versatile beauty treatment suitable for men and women of all ages. This comprehensive facial includes exfoliation, face masks, cleansing, a facial massage, steaming, and the application of various creams and lotions. Tailored to suit different skin types—whether dry, oily, sensitive, or normal—this treatment will leave your skin feeling refreshed and revitalized.",
+      text: "A deep cleansing facial is a versatile beauty treatment suitable for men and women of all ages. This comprehensive facial includes exfoliation, face masks, cleansing, a facial massage, and the application of various creams and lotions. Tailored to suit different skin types—whether dry, oily, sensitive, or normal—this treatment will leave your skin feeling refreshed and revitalized.",
       price: "R450 ( 60 minutes )",
       imageUrl: "/assets/grid/facial.webp",
     },
     {
       title: "Body Scrub",
-      text: "Experience ultimate skin rejuvenation with our full body scrub. This treatment exfoliates using salt, sugar, or herbs to remove dead skin cells, revealing fresh skin underneath. It boosts circulation, detoxifies, and refreshes the skin. After exfoliation, hydrating creams and oils lock in moisture, keeping your skin soft and supple. Add this to your routine for smoother, brighter, and more youthful-looking skin.",
+      text: "Experience ultimate skin rejuvenation with our full body scrub. This treatment exfoliates using coffee, salt, sugar, or herbs to remove dead skin cells, revealing fresh skin underneath. It boosts circulation, detoxifies, and refreshes the skin. After exfoliation, hydrating creams and oils lock in moisture, keeping your skin soft and supple. Add this to your routine for smoother, brighter, and more youthful-looking skin.",
       price: "R450 ( 60 minutes )",
       imageUrl: "/assets/grid/body.webp",
     },

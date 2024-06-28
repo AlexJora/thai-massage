@@ -57,15 +57,6 @@ const PriceList = () => {
                   </tr>
                   <tr className="odd:bg-primary-80 even:bg-white">
                     <td className="px-2 py-2 font-semibold border">
-                      Deep Tissue Added on
-                    </td>
-                    <td className="px-2 py-2 border">R50</td>
-                    <td className="px-2 py-2 border">R50</td>
-                    <td className="px-2 py-2 border">R50</td>
-                    <td className="px-2 py-2 border">R50</td>
-                  </tr>
-                  <tr className="odd:bg-primary-80 even:bg-white">
-                    <td className="px-2 py-2 font-semibold border">
                       Traditional Thai Massage
                     </td>
                     <td className="px-2 py-2 border"></td>
@@ -97,7 +88,7 @@ const PriceList = () => {
                     </td>
                     <td className="px-2 py-2 border"></td>
                     <td className="px-2 py-2 border">R550</td>
-                    <td className="px-2 py-2 border">R670</td>
+                    <td className="px-2 py-2 border">R750</td>
                     <td className="px-2 py-2 border"></td>
                   </tr>
                   <tr className="odd:bg-primary-80 even:bg-white">
@@ -115,7 +106,7 @@ const PriceList = () => {
                     </td>
                     <td className="px-2 py-2 border"></td>
                     <td className="px-2 py-2 border">R550</td>
-                    <td className="px-2 py-2 border">R670</td>
+                    <td className="px-2 py-2 border">R750</td>
                     <td className="px-2 py-2 border"></td>
                   </tr>
                 </tbody>
