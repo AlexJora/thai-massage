@@ -2,7 +2,7 @@ import HeroHome from "@/components/Hero/HeroHome";
 import GridMassageHome from "@/components/Grid/GridMassageHome";
 import MassageBenefits from "@/components/MassageBenefits";
 import Button3 from "@/components/Button/Button3";
-import Testimonials from "@/components/Testimonials";
+// import Testimonials from "@/components/Testimonials";
 
 
 export const metadata = {
@@ -73,7 +73,7 @@ export default function Home() {
           </p>
         </div>
         <GridMassageHome />
-        <Testimonials/> 
+        {/* <Testimonials/>  */}
         <MassageBenefits />
         <Button3 />
       </div>

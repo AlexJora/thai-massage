@@ -28,7 +28,7 @@ const About = () => {
         <p className="px-6 text-base leading-7 text-center text-black lg:px-14 lg:text-lg">We are committed to upholding <span className="font-semibold">values</span> of dignity, respect, dedication, and gratitude in every aspect of our service.</p>
       </div>
       {/* FACILITIES */}
-      <div className="flex flex-col items-center p-4">
+      {/* <div className="flex flex-col items-center p-4">
       <h2 className="px-6 pb-6 text-3xl text-center ">Our Facilities</h2>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-20">
         <div className="flex items-center justify-center">
@@ -44,7 +44,7 @@ const About = () => {
         height={400} />
         </div>
       </div>
-    </div>
+    </div> */}
     {/* ETIQUETTE */}
     <div className="pb-16">
     <h2 className="px-6 pb-6 text-3xl text-center ">Our Spa Etiquette</h2>
