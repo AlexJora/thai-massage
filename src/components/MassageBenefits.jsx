@@ -22,7 +22,7 @@ const MassageBenefits = () => {
   ];
 
   return (
-    <div className="mb-16 lg:px-12">
+    <div className="py-12 mb-16 lg:px-12">
       <h1 className="mt-8 mb-12 text-4xl text-center ">Massage Benefits</h1>
 
       <p className="px-8 mb-8 text-lg">
