@@ -59,6 +59,17 @@ const HeroHome = () => {
           />
         </picture>
       </div>
+      {/* Sale Image */}
+      <div className="absolute z-30 top-4 right-4 md:top-10 md:right-10">
+        <Image
+          src="/assets/sale.webp"
+          alt="Sale"
+          width={100}
+          height={100}
+          className="md:w-[150px] md:h-[150px]"
+          
+        />
+      </div>
     </section>
   );
 };
