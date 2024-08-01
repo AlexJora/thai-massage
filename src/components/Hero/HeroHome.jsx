@@ -60,7 +60,7 @@ const HeroHome = () => {
         </picture>
       </div>
       {/* Sale Image */}
-      <div className="absolute z-30 top-4 right-4 md:top-10 md:right-10">
+      {/* <div className="absolute z-30 top-4 right-4 md:top-10 md:right-10">
         <Image
           src="/assets/sale.webp"
           alt="Sale"
@@ -69,7 +69,7 @@ const HeroHome = () => {
           className="md:w-[150px] md:h-[150px]"
           
         />
-      </div>
+      </div> */}
     </section>
   );
 };
