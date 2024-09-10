@@ -5,11 +5,64 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaTiktok } from "react-icons/fa";
 
-
 const HeroHome = () => {
   return (
     <section className="relative bg-center bg-no-repeat bg-cover">
-      <div className="relative z-20 max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:flex lg:h-screen lg:items-center">
+      <div className="relative z-20 max-w-screen-xl px-4 pt-8 pb-12 mx-auto sm:px-6 lg:flex lg:h-screen lg:items-center">
+        {/* Social Media Icons small and medium screens*/}
+        <div className="flex justify-center p-2 mb-6 space-x-5 lg:hidden">
+          <Link
+            href="https://www.facebook.com/ruanthaispa"
+            target="_blank"
+            aria-label="Visit our Facebook page"
+            passHref
+          >
+            <FaFacebookF className="text-3xl transition-colors duration-300 text-secondary-800 hover:text-primary-200" />
+          </Link>
+          <Link
+            href="https://x.com/RuanThaiMassage"
+            target="_blank"
+            aria-label="Visit our X (Twitter) page"
+            passHref
+          >
+            <FaXTwitter className="text-3xl text-white transition-colors duration-300 hover:text-primary-200" />
+          </Link>
+          <Link
+            href=""
+            target="_blank"
+            aria-label="Visit our TikTok page"
+            passHref
+          >
+            <FaTiktok className="text-3xl text-white transition-colors duration-300 hover:text-primary-200" />
+          </Link>
+        </div>
+        {/* Social Media Icons for large screens */}
+        <div className="absolute right-[-100px] hidden transform -translate-y-1/2 top-64 lg:flex lg:flex-col lg:space-y-6">
+          <Link
+            href="https://www.facebook.com/ruanthaispa"
+            target="_blank"
+            aria-label="Visit our Facebook page"
+            passHref
+          >
+            <FaFacebookF className="text-4xl transition-colors duration-300 text-secondary-800 hover:text-primary-200" />
+          </Link>
+          <Link
+            href="https://x.com/RuanThaiMassage"
+            target="_blank"
+            aria-label="Visit our X (Twitter) page"
+            passHref
+          >
+            <FaXTwitter className="text-4xl text-white transition-colors duration-300 hover:text-primary-200" />
+          </Link>
+          <Link
+            href=""
+            target="_blank"
+            aria-label="Visit our TikTok page"
+            passHref
+          >
+            <FaTiktok className="text-4xl text-white transition-colors duration-300 hover:text-primary-200" />
+          </Link>
+        </div>
         {/* Content Container */}
         <div className="z-20 max-w-xl mx-auto text-center lg:w-3/4 lg:mx-0">
           <div className="p-8 bg-black bg-opacity-50 rounded-md">
@@ -35,18 +88,7 @@ const HeroHome = () => {
                 CONTACT US
               </Link>
             </div>
-             {/* Social Media Icons */}
-      <div className="flex justify-center mt-6 space-x-5">
-        <Link href="https://www.facebook.com/ruanthaispa" target="_blank" aria-label="Visit our Facebook page" passHref>
-          <FaFacebookF className="text-3xl transition-colors duration-300 text-primary-300 hover:text-white" />
-        </Link>
-        <Link href="https://x.com/RuanThaiMassage" target="_blank" aria-label="Visit our X (Twitter) page" passHref>
-          <FaXTwitter className="text-3xl transition-colors duration-300 text-primary-300 hover:text-white" />
-        </Link>
-        <Link href="" target="_blank" aria-label="Visit our TikTok page" passHref>
-          <FaTiktok className="text-3xl transition-colors duration-300 text-primary-300 hover:text-white" />
-        </Link>
-      </div>
+           
           </div>
         </div>
       </div>

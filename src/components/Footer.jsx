@@ -30,13 +30,13 @@ const Footer = () => {
           </div>
           <div className="flex w-2/4 space-x-4">
             <Link href="https://www.facebook.com/ruanthaispa" target="_blank" aria-label="Visit our Facebook page" passHref>
-              <FaFacebookF className="text-2xl transition-colors duration-300 text-primary-200 hover:text-white"/>
+              <FaFacebookF className="text-2xl transition-colors duration-300 text-secondary-800 hover:text-primary-200"/>
             </Link>
             <Link href="https://x.com/RuanThaiMassage" target="_blank" aria-label="Visit our X (Twitter) page" passHref>
-              <FaXTwitter className="text-2xl transition-colors duration-300 text-primary-200 hover:text-white" />
+              <FaXTwitter className="text-2xl text-white transition-colors duration-300 hover:text-primary-200" />
             </Link>
             <Link href="" target="_blank" aria-label="Visit our TikTok page" passHref>
-              <FaTiktok  className="text-2xl transition-colors duration-300 text-primary-200 hover:text-white" />
+              <FaTiktok  className="text-2xl text-white transition-colors duration-300 hover:text-primary-200" />
             </Link>
           </div>   
         </div>
