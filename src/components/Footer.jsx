@@ -1,8 +1,9 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { FaFacebook } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaTiktok } from "react-icons/fa";
 import { FaAngleUp } from "react-icons/fa6";
 import Link from "next/link";
 
@@ -27,12 +28,15 @@ const Footer = () => {
               Connect with Us
             </h2>
           </div>
-          <div className="flex w-2/4">
+          <div className="flex w-2/4 space-x-4">
             <Link href="https://www.facebook.com/ruanthaispa" target="_blank" aria-label="Visit our Facebook page" passHref>
-              <FaFacebook className="text-3xl text-primary-200"/>
+              <FaFacebookF className="text-2xl transition-colors duration-300 text-primary-200 hover:text-white"/>
             </Link>
             <Link href="https://x.com/RuanThaiMassage" target="_blank" aria-label="Visit our X (Twitter) page" passHref>
-              <FaSquareXTwitter className="mx-6 text-3xl text-primary-200" />
+              <FaXTwitter className="text-2xl transition-colors duration-300 text-primary-200 hover:text-white" />
+            </Link>
+            <Link href="" target="_blank" aria-label="Visit our TikTok page" passHref>
+              <FaTiktok  className="text-2xl transition-colors duration-300 text-primary-200 hover:text-white" />
             </Link>
           </div>   
         </div>
