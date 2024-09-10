@@ -38,13 +38,13 @@ const HeroHome = () => {
              {/* Social Media Icons */}
       <div className="flex justify-center mt-6 space-x-5">
         <Link href="https://www.facebook.com/ruanthaispa" target="_blank" aria-label="Visit our Facebook page" passHref>
-          <FaFacebookF className="text-xl transition-colors duration-300 md:text-2xl text-primary-300 hover:text-white" />
+          <FaFacebookF className="text-3xl transition-colors duration-300 text-primary-300 hover:text-white" />
         </Link>
         <Link href="https://x.com/RuanThaiMassage" target="_blank" aria-label="Visit our X (Twitter) page" passHref>
-          <FaXTwitter className="text-xl transition-colors duration-300 md:text-2xl text-primary-300 hover:text-white" />
+          <FaXTwitter className="text-3xl transition-colors duration-300 text-primary-300 hover:text-white" />
         </Link>
         <Link href="" target="_blank" aria-label="Visit our TikTok page" passHref>
-          <FaTiktok className="text-xl transition-colors duration-300 md:text-2xl text-primary-300 hover:text-white" />
+          <FaTiktok className="text-3xl transition-colors duration-300 text-primary-300 hover:text-white" />
         </Link>
       </div>
           </div>
