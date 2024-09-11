@@ -10,7 +10,36 @@ const HeroHome = () => {
     <section className="relative bg-center bg-no-repeat bg-cover">
       <div className="relative z-20 max-w-screen-xl px-4 pt-8 pb-12 mx-auto sm:px-6 lg:flex lg:h-screen lg:items-center">
         {/* Social Media Icons small and medium screens*/}
-        <div className="flex justify-center p-2 mb-6 space-x-5 lg:hidden">
+        <div className="absolute top-0 z-20 flex justify-center p-2 space-x-5 transition-transform duration-300 ease-in-out transform -translate-x-1/2 bg-black bg-opacity-50 rounded left-1/2 lg:hidden hover:translate-y-1">
+
+
+       <Link
+            href="https://www.facebook.com/ruanthaispa"
+            target="_blank"
+            aria-label="Visit our Facebook page"
+            passHref
+          >
+            <FaFacebookF className="text-2xl transition-colors duration-300 text-secondary-800 hover:text-primary-200" />
+          </Link>
+          <Link
+            href="https://x.com/RuanThaiMassage"
+            target="_blank"
+            aria-label="Visit our X (Twitter) page"
+            passHref
+          >
+            <FaXTwitter className="text-2xl text-white transition-colors duration-300 hover:text-primary-200" />
+          </Link>
+          <Link
+            href=""
+            target="_blank"
+            aria-label="Visit our TikTok page"
+            passHref
+          >
+            <FaTiktok className="text-2xl text-white transition-colors duration-300 hover:text-primary-200" />
+          </Link>
+        </div>
+        {/* Social Media Icons for large screens */}
+        <div className="fixed right-0 hidden p-4 transition-transform duration-300 ease-in-out transform -translate-y-1/2 bg-black bg-opacity-50 rounded-l-lg top-1/2 lg:flex lg:flex-col lg:space-y-6 hover:-translate-x-2">
           <Link
             href="https://www.facebook.com/ruanthaispa"
             target="_blank"
@@ -36,35 +65,8 @@ const HeroHome = () => {
             <FaTiktok className="text-3xl text-white transition-colors duration-300 hover:text-primary-200" />
           </Link>
         </div>
-        {/* Social Media Icons for large screens */}
-        <div className="absolute right-[-100px] hidden transform -translate-y-1/2 top-64 lg:flex lg:flex-col lg:space-y-6">
-          <Link
-            href="https://www.facebook.com/ruanthaispa"
-            target="_blank"
-            aria-label="Visit our Facebook page"
-            passHref
-          >
-            <FaFacebookF className="text-4xl transition-colors duration-300 text-secondary-800 hover:text-primary-200" />
-          </Link>
-          <Link
-            href="https://x.com/RuanThaiMassage"
-            target="_blank"
-            aria-label="Visit our X (Twitter) page"
-            passHref
-          >
-            <FaXTwitter className="text-4xl text-white transition-colors duration-300 hover:text-primary-200" />
-          </Link>
-          <Link
-            href=""
-            target="_blank"
-            aria-label="Visit our TikTok page"
-            passHref
-          >
-            <FaTiktok className="text-4xl text-white transition-colors duration-300 hover:text-primary-200" />
-          </Link>
-        </div>
         {/* Content Container */}
-        <div className="z-20 max-w-xl mx-auto text-center lg:w-3/4 lg:mx-0">
+        <div className="z-20 max-w-xl mx-auto mt-12 text-center lg:w-3/4 lg:mx-0">
           <div className="p-8 bg-black bg-opacity-50 rounded-md">
             <div className="text-3xl leading-loose">
               <h1 className="text-white">
