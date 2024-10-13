@@ -77,7 +77,7 @@ const Navigation = () => {
           </div>
 
           {/* LARGE SCREEN =======================================*/}
-          <div className="hidden text-lg lg:block pe-6">
+          <div className="flex text-lg max-lg:hidden pe-6">
             <div className="flex items-center">
               {/* HOME Link */}
               <Link

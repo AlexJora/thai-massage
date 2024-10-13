@@ -39,7 +39,7 @@ const HeroHome = () => {
           </Link>
         </div>
         {/* Social Media Icons for large screens */}
-        <div className="fixed right-0 hidden p-4 transition-transform duration-300 ease-in-out transform -translate-y-1/2 bg-black bg-opacity-50 rounded-l-lg top-1/2 lg:flex lg:flex-col lg:space-y-6 hover:-translate-x-2">
+        <div className="fixed right-0 flex p-4 transition-transform duration-300 ease-in-out transform -translate-y-1/2 bg-black bg-opacity-50 rounded-l-lg max-lg:hidden top-1/2 lg:flex-col lg:space-y-6 hover:-translate-x-2">
           <Link
             href="https://www.facebook.com/ruanthaispa"
             target="_blank"
