@@ -14,7 +14,7 @@ export default function Form() {
   const [notification, setNotification] = useState("");
 
   const sendMail = async () => {
-    console.log("sendMail called");
+    // console.log("sendMail called");
     const params = {
       name,
       email,
@@ -29,14 +29,9 @@ export default function Form() {
     const templateID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
     const userID = process.env.NEXT_PUBLIC_USER_ID;
 
-    console.log("Params:", params);
-    console.log("Service ID:", serviceID);
-    console.log("Template ID:", templateID);
-    console.log("User ID:", userID);
-
     try {
       const response = await emailjs.send(serviceID, templateID, params, userID);
-      console.log("Email sent successfully:", response);
+      // console.log("Email sent successfully:", response);
       setStatus("Send Message");
       setName("");
       setEmail("");
@@ -50,7 +45,7 @@ export default function Form() {
 
       setTimeout(() => setNotification(""), 3000);
     } catch (error) {
-      console.error("Error sending email:", error);
+      // console.error("Error sending email:", error);
       setStatus("Send Message");
       setNotification("Something went wrong. Please try again later.");
 
@@ -60,7 +55,7 @@ export default function Form() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("handleSubmit called");
+    // console.log("handleSubmit called");
     setStatus("Sending...");
     sendMail();
   };
